@@ -1,9 +1,7 @@
 ---
 title: "ReproRes Poll Class 01"
-output: 
-  flexdashboard::flex_dashboard:
-    orientation: columns
-    vertical_layout: fill
+format:
+  dashboard:
     theme: yeti
 execute:
   echo: false
@@ -14,7 +12,6 @@ execute:
 ```{r setup, include=FALSE}
 # [Poll](https://forms.gle/iPwNuTg5aooVjSvN7)
 
-library(flexdashboard)
 library(tidyverse)
 library(googlesheets4)
 options(gargle_oauth_email = "debruine@gmail.com")
@@ -46,12 +43,13 @@ data <- read_sheet(url, sheet = "Week1")
 
 `r nrow(data)` Participants
 
-Column {data-width=300}
+Row {height=33%}
 -----------------------------------------------------------------------
 
 ### What programme are you in?
 
 ```{r}
+#| title: What programme are you in?
 dat_cats <- count(data, `What programme are you in?`, sort = TRUE) |> pull(1)
 prog_cats <- c("MSc Research Methods",
                "MSc Brain Sciences",
@@ -70,32 +68,11 @@ ggplot(programme, aes(x = programme)) +
   scale_fill
 ```
 
-### What are you hoping to learn from this class?
-
-```{r}
-omitted <- c(stop_words$word, "im", 0:9)
-
-words <- select(data, hope = 10) %>%
-  filter(!is.na(hope)) %>%
-  unnest_tokens(output = "word", input = "hope") %>%
-  count(word) %>%
-  filter(!word %in% omitted) %>%
-  slice_max(order_by = n, n = 20, with_ties = FALSE)
-
-ggplot(words, aes(label = word, colour = word, size = n)) +
-  geom_text_wordcloud_area() +
-  scale_size_area(max_size = 15) +
-  theme_minimal(base_size = 13) +
-  scale_color_see_d(palette = "ice") 
-```
-
-Column {data-width=300}
------------------------------------------------------------------------
-
 
 ### How much experience do you have?
 
-```{r, fig.height = 5}
+```{r}
+#| title: How much experience do you have?
 experience <- data[5:7] %>%
   rename(reproducibility = 1, R = 2, stats = 3) %>%
   pivot_longer(cols = 1:3, 
@@ -112,12 +89,35 @@ ggplot(experience, aes(x = rating, fill = question)) +
 ```
 
 
-Column {data-width=300}
+Row {height=33%}
+-----------------------------------------------------------------------
+### What are you hoping to learn from this class?
+
+```{r}
+#| title: What are you hoping to learn from this class?
+omitted <- c(stop_words$word, "im", 0:9)
+
+words <- select(data, hope = 10) %>%
+  filter(!is.na(hope)) %>%
+  unnest_tokens(output = "word", input = "hope") %>%
+  count(word) %>%
+  filter(!word %in% omitted) %>%
+  slice_max(order_by = n, n = 20, with_ties = FALSE)
+
+ggplot(words, aes(label = word, colour = word, size = n)) +
+  geom_text_wordcloud_area() +
+  scale_size_area(max_size = 15) +
+  theme_minimal(base_size = 13) +
+  scale_color_see_d(palette = "ice") 
+```
+
+Row {height=33%}
 -----------------------------------------------------------------------
 
 ### How are you feeling about this class?
 
-```{r fig-feeling, fig.width=8, fig.height=5}
+```{r}
+#| title: How are you feeling about this class?
 feel_cats <- c("I'm excited to learn!", 
                 "I'm confident about my coding skills", 
                 "I'm anxious about the coding",
@@ -145,7 +145,8 @@ ggplot(feelings, aes(x = feelings)) +
 
 ### Check what you've completed
 
-```{r fig-completed, fig.width=8, fig.height=5}
+```{r}
+#| title: Check what you've completed
 done_cats <- c("Installed R",
                "Installed RStudio",
                "Found the Moodle class",

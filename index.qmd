@@ -1,12 +1,9 @@
 ---
-title: ReproRes 2022
-output: 
-  html_document:
+title: ReproRes 2024
+format: 
+  html:
     toc: true
-    toc_depth: 2
-  md_document:
-    toc: true
-    toc_depth: 2
+    toc-depth: 2
 ---
 
 ## Class 01 (2024-09-27)
@@ -31,7 +28,7 @@ output:
 
 ### In-Class
 
-- [Poll 1](https://debruine.github.io/reprores_2024/polls/poll-01.html)
+- [Poll 1](polls/poll-01.html)
 - Open the [class book](https://psyteachr.github.io/reprores-v4/)
 - Open RStudio 
 - Start at 13:05
