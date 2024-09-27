@@ -1,9 +1,11 @@
 ---
 title: ReproRes 2024
-format: 
+format:
   html:
     toc: true
-    toc-depth: 2
+    toc-depth: 3
+    toc-expand: 3
+    toc-title: Page Contents
 ---
 
 ## Class 01 (2024-09-27)

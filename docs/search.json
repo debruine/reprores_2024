@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ReproRes 2024",
+    "section": "",
+    "text": "Make sure you can access Moodle\nBookmark the Teams channel for PSYCH5077 and Introduce yourself\nRead the overview and Chapter 1 of the textbook\nInstall R and RStudio on your computer\n\npost on Teams if you run into problems\nif you don’t have a personal computer, you can use university computers; log on and familiarise yourself with R and RStudio\nIf you have a chromebook or tablet, you can’t install R, but can use the RStudio server (log in with your GUID)\n\nDownload and render the test file{download} to check that your setup is accurate\nAdd these assessment dates to your diary\n\n2024-10-09 (10%) A project with a qmd file showing basic reproducible report skills (chapters 1-2)\n2024-10-23 (20%) A project demonstrating data visualisation and summary skills (chapters 3-4)\n2024-11-13 (30%) A project demonstrating data wrangling skills (chapters 5-7)\n2024-12-11 (40%) A project showing power simulation (chapters 8-10)\n\nFill out the pre-class poll\n\n\n\n\n\nPoll 1\nOpen the class book\nOpen RStudio\nStart at 13:05\nWhy Code? presentation\nDiscuss the class syllabus\nBreak\nChapter 1 live code\n\n\n\n\n\nlog into desktops with campus\\12345678X and GUID password\n\n\n\n\n\nRead Chapter 2: Reports\nComplete the exercises for chapter 2\nLook at assessment 1"
+  },
+  {
+    "objectID": "index.html#class-01-2024-09-27",
+    "href": "index.html#class-01-2024-09-27",
+    "title": "ReproRes 2024",
+    "section": "",
+    "text": "Make sure you can access Moodle\nBookmark the Teams channel for PSYCH5077 and Introduce yourself\nRead the overview and Chapter 1 of the textbook\nInstall R and RStudio on your computer\n\npost on Teams if you run into problems\nif you don’t have a personal computer, you can use university computers; log on and familiarise yourself with R and RStudio\nIf you have a chromebook or tablet, you can’t install R, but can use the RStudio server (log in with your GUID)\n\nDownload and render the test file{download} to check that your setup is accurate\nAdd these assessment dates to your diary\n\n2024-10-09 (10%) A project with a qmd file showing basic reproducible report skills (chapters 1-2)\n2024-10-23 (20%) A project demonstrating data visualisation and summary skills (chapters 3-4)\n2024-11-13 (30%) A project demonstrating data wrangling skills (chapters 5-7)\n2024-12-11 (40%) A project showing power simulation (chapters 8-10)\n\nFill out the pre-class poll\n\n\n\n\n\nPoll 1\nOpen the class book\nOpen RStudio\nStart at 13:05\nWhy Code? presentation\nDiscuss the class syllabus\nBreak\nChapter 1 live code\n\n\n\n\n\nlog into desktops with campus\\12345678X and GUID password\n\n\n\n\n\nRead Chapter 2: Reports\nComplete the exercises for chapter 2\nLook at assessment 1"
+  },
+  {
+    "objectID": "polls/poll-04.html",
+    "href": "polls/poll-04.html",
+    "title": "ReproRes Poll Class 04",
+    "section": "",
+    "text": "Take the Poll\n33 Participants"
+  },
+  {
+    "objectID": "polls/poll-04.html#row",
+    "href": "polls/poll-04.html#row",
+    "title": "ReproRes Poll Class 04",
+    "section": "Row",
+    "text": "Row\n\nHow did you engage with Chapter 4?\n\n\n\n\n\n\n\n\n\n\n\nWhat have you completed for the mid-term assessment?"
+  },
+  {
+    "objectID": "polls/poll-04.html#row-1",
+    "href": "polls/poll-04.html#row-1",
+    "title": "ReproRes Poll Class 04",
+    "section": "Row",
+    "text": "Row\n\nList concepts you learned in Chapter 4 that you feel confident about.\n\n\n\n\n\n\n\n\n\n\n\nList concepts you learned in Chapter 4 that you feel less confident about and would like reviewed in class today."
+  },
+  {
+    "objectID": "polls/poll-04.html#row-2",
+    "href": "polls/poll-04.html#row-2",
+    "title": "ReproRes Poll Class 04",
+    "section": "Row",
+    "text": "Row\n\nConfident\n\n\n\n\n\n\n\n\n\n\nLoading and reading data.\n\n\nvectors, plotting\n\n\nload built in data sets, import data, understand basic data types, understand basic container types, troubleshoot data problems\n\n\nImport data from cvs files, understand the basic data types, structure data for scripting\n\n\nimporting, inspecting, creating data; basic data types\n\n\nimporting data, creating data tables\n\n\nnothing...\n\n\nSufficient knowledge\n\n\nreading in data, creating tibbles and columns\n\n\nvectorised operation\n\n\nData Structure, Built in data, importing, inspecting, writing, basic data types, basic container types\n\n\nimpoirt data\n\n\ndownloading data thats already in R\n\n\nvectors, import, export\n\n\nImporting data, Data types\n\n\naction on the dataset (until4.5\n\n\nAll\n\n\nData tables, basic data types, and basic container types\n\n\n1. Tibble creation 2. Column types 3. File types, their extensions and how to read and write them in R 4. Guidelines to making my data files easier to read in with less errors 5. How to actually read an error instead of looking at it, panicking and giving up 6. Telling R what each column in a table/dataset should be when it wrongly assumes 7. Using the functions sin() and cos()\n\n\nAll of them\n\n\n\n\n\n\n\n\n\nNot Confident\n\n\n\n\n\n\n\n\n\n\nChecking/cleaning the data.\n\n\nloading in data\n\n\nN/A\n\n\ncreate a data table, use vectorised operations\n\n\nbasic container types, vectorised operations, troubleshooting\n\n\nfactors, vectors, vectorized operations\n\n\ntroubleshooting\n\n\nlast weeks exercise that we never got through\n\n\nAll of them\n\n\nmodify imported data\n\n\ncreating data tables\n\n\ndifferent data format\n\n\nvectors\n\n\nhow to find our mid-term data files, how to define data values for plots\n\n\nTerminology and Set Up\n\n\ntibble function\n\n\nBasic Container types, changing data types when importing data\n\n\nthe last part(4.7 of the book\n\n\nTrouble shooting\n\n\n1. Being able to troubleshoot properly even when ive read the error code"
+  },
+  {
+    "objectID": "polls/poll-02.html",
+    "href": "polls/poll-02.html",
+    "title": "ReproRes Poll Class 02",
+    "section": "",
+    "text": "35 Participants"
+  },
+  {
+    "objectID": "polls/poll-02.html#row",
+    "href": "polls/poll-02.html#row",
+    "title": "ReproRes Poll Class 02",
+    "section": "Row",
+    "text": "Row\n\nHow did you engage with Chapter 2?"
+  },
+  {
+    "objectID": "polls/poll-02.html#row-1",
+    "href": "polls/poll-02.html#row-1",
+    "title": "ReproRes Poll Class 02",
+    "section": "Row",
+    "text": "Row\n\nWhat parts of Skills Self-Assessment did you find challenging or impossible?\n\n\n\n\n\n\n\n\n\n\n\nHow did you engage with the Skills Self-Assessment?"
+  },
+  {
+    "objectID": "polls/poll-02.html#row-2",
+    "href": "polls/poll-02.html#row-2",
+    "title": "ReproRes Poll Class 02",
+    "section": "Row",
+    "text": "Row\n\nHow are you accessing RStudio?\n\n\n\n\n\n\n\n\n\n\n\nHave you been studying in a group?"
+  },
+  {
+    "objectID": "polls/poll-02.html#row-3",
+    "href": "polls/poll-02.html#row-3",
+    "title": "ReproRes Poll Class 02",
+    "section": "Row",
+    "text": "Row\n\nList concepts you learned in Chapters 1 and 2 that you feel confident about.\n\n\n\n\n\n\n\n\n\n\n\nList concepts you learned in Chapters 1 and 2 that you feel less confident about and would like reviewed in class today."
+  },
+  {
+    "objectID": "polls/poll-02.html#row-4",
+    "href": "polls/poll-02.html#row-4",
+    "title": "ReproRes Poll Class 02",
+    "section": "Row",
+    "text": "Row\n\nConfident\n\n\n\n\n\n\n\n\n\n\nformatting project, finding helper, writing code\n\n\ninstalling packages and running them, variables, c(), making a table\n\n\nformatting r markdown, arguments, and utilizing the environment.\n\n\ndoing basic r syntax; writing in an r markdown file; creating a new project and r markdown file.\n\n\nsome code for calculation\n\n\nCreating a VERY basic table, installing & loading packages\n\n\nhardly anything\n\n\nyes\n\n\nDifferentiating between functions, arguments, objects; finding and creating datasets.\n\n\n1. importing data and organising/sorting it. 2. Starting scripts and Rmarkdown files 3. knowing what all the different symbols mean and how to use them. 4. The value of producing reproducible reports. 5. How to properly name files so they are well organised and useable. 6. Setting and working from directories. 7. How to produce a bibliography from a reference manager. 8. creating headings and subheadings. 9. creating bold and/or italic text 10. creating code chunks using backticks 11. how to make a code chunk be visible in the Rmarkdown file but not in the knitted output 12. how to create a basic table 14. how to include an image from a html link 15. how to create clickable hyperlinks in the knitted file\n\n\ninstalling packages, knowing methods for help, creating an Rmarkdown document, editing the YAML header, including tables and pictures,\n\n\nI feel pretty comfortable with all content so far\n\n\nEverything- I have extensively done R before so this is revision for me\n\n\nLoading and Installing Packages Basic Arithmatic\n\n\nI understand how to make a code chunk and that's basically the only thing I feel confident about.\n\n\nNo comment\n\n\nI feel quite confident with most of the other topics covered\n\n\nusing the function library, install_packages, using the r chunk\n\n\ncreating projects and rmarkdowns, editing the yaml header, writing inline\n\n\nopen R studio\n\n\nstart a R project\n\n\nCreating a project, using functions, using RMarkdown\n\n\nMarkdown, tables\n\n\nRMarkdown\n\n\nAll of chapter 1. Chapter 2 - Rmarkdown, working directory, YAML, setup, structure, code chunks, tables, images\n\n\ninstalling packages, listing, setting directory\n\n\nknit, r markdown, yaml, chunk\n\n\nknit, r markdown\n\n\n\n\n\n\n\n\n\nNot Confident\n\n\n\n\n\n\n\n\n\n\nadding images to rmarkdown\n\n\nlinking an image, Kable function/ using Kable for the yaml header\n\n\ncreating tables in R markdown\n\n\nmaking tables, adding bibliography to Rmarkdown, getting the toc to appear on Rmarkdown, i am confused about what fortunes is and the dplyr package has an error message when I try to install/load it\n\n\nhow to knit a table; how to use downloaded themes from bootstrap\n\n\nEditing YAML header, in-line R, using kable\n\n\nmarkdown\n\n\nAdding images, links and new data. Creating lists (e.g., bullet point lists)\n\n\nstruggled inserting an image struggled with the table my markdown wouldnt knit to html struggled changing the theme\n\n\nyes\n\n\nCitations & bibliography; YAML header personalisation & how to lay out the different options within the YAML header.\n\n\n1. how to include an image from a file already on your computer 2. how to alter table code to make them more aesthetically pleasing 3. how to simulate data\n\n\nreporting output of analysis using in-line R, adding bibliography and citations\n\n\nn/a, although am a bit rusty with adding images to r studio\n\n\nNothing\n\n\nTables and Polls General Terminology\n\n\nI onlu understood about the first half of chapter 2, and then could not figure out how to translate those skills to the exercise\n\n\nNo comment\n\n\nInserting images into RMarkdown and formatting them on the page\n\n\nThe rest with r markdown: making a table, compiling what I learnt from the videos and book into application\n\n\na code chunk\n\n\nchange the table style\n\n\nYAML headers\n\n\nbibliography, linked documents\n\n\nkable, headers, in-line R, inserting images, tables. most of chapter 2\n\n\ntables, image & figures\n\n\nMaking tables, inserting images, figures"
+  },
+  {
+    "objectID": "reprores_test.html",
+    "href": "reprores_test.html",
+    "title": "Test",
+    "section": "",
+    "text": "Click the render button above, and install any packages if you are prompted. Once you have created an HTML document, you have succeeded!"
+  },
+  {
+    "objectID": "polls/poll-03.html",
+    "href": "polls/poll-03.html",
+    "title": "ReproRes Poll Class 03",
+    "section": "",
+    "text": "37 Participants"
+  },
+  {
+    "objectID": "polls/poll-03.html#row",
+    "href": "polls/poll-03.html#row",
+    "title": "ReproRes Poll Class 03",
+    "section": "Row",
+    "text": "Row\n\nHow did you engage with Chapter 3?\n\n\n\n\n\n\n\n\n\n\n\nWhat is your favourite colour?"
+  },
+  {
+    "objectID": "polls/poll-03.html#row-1",
+    "href": "polls/poll-03.html#row-1",
+    "title": "ReproRes Poll Class 03",
+    "section": "Row",
+    "text": "Row\n\nList concepts you learned in Chapter 3 that you feel confident about.\n\n\n\n\n\n\n\n\n\n\n\nList concepts you learned in Chapter 3 that you feel less confident about and would like reviewed in class today."
+  },
+  {
+    "objectID": "polls/poll-03.html#row-2",
+    "href": "polls/poll-03.html#row-2",
+    "title": "ReproRes Poll Class 03",
+    "section": "Row",
+    "text": "Row\n\nConfident\n\n\n\n\n\n\n\n\n\n\nbasic plots and ggplot2\n\n\nBox plot\n\n\nproducing visual representations of data\n\n\nThe box plot, density plot, violin plot\n\n\nLearn something about plot\n\n\nAll plots\n\n\nplot\n\n\nMaking plots & changing aspects of their design\n\n\neverything other than the last problem on the hw\n\n\nI'm happy with following instructions to create some of the more simpler graphs; setting up the rmarkdown file too.\n\n\nCommon plot types, customisations\n\n\nI feel confident that I know what plots what are and the codes that correspond with each type\n\n\nI feel ok about most of the basic plots!\n\n\nnot much, i would need to consult with the videos and book to make sure before doing anything\n\n\ncommand of simple plot\n\n\nPlotting graphs using ggplot, customizing plots, saving plots\n\n\nggplot graft\n\n\nviolin plot, boxplot, density plot\n\n\nggplot, violin plots, boxplot, facets\n\n\nData visualisation, ggplot\n\n\ncreating ggplot and customise\n\n\nHow to create and alter plots\n\n\nIdentifying some differences and the use of different plots\n\n\ncreat common graphs with ggplot, combine plots, save plot image\n\n\nMaking common types of plots using ggplot, customising colours.\n\n\nstat_summary\n\n\n\n\n\n\n\n\n\nNot Confident\n\n\n\n\n\n\n\n\n\n\nrecognizing all possible code combination\n\n\neverything\n\n\nTerminology and set up of exercises\n\n\nInstalling reprores, violin plots, changing colours + transparacy\n\n\nsaving the plots, faceting\n\n\neverything after that?\n\n\nfacets\n\n\nset up theme and complax graph\n\n\nthe last problem on the hw\n\n\nhow to change the colours of lines on the graphs and faceting\n\n\nLine graphs, overlapping continuous data\n\n\nI am unsure about what data should be presented in which plot (if that makes sense)\n\n\nColumn plots, a lot of layers\n\n\nthe second half of the exercise\n\n\ndownload data complex plot\n\n\nnow I know what Im doing hahahah\n\n\nfacets, combination plots, advanced grid plots\n\n\nfacets, advanced grids\n\n\ngrids, facets, column plot, vertical interval\n\n\n2D Density Plots\n\n\nCombine plots on the same plot, as facets, or as a grid using patchwork\n\n\nfile paths for saving and loading data\n\n\ngig-lots\n\n\nmost of the rest\n\n\ncolours and themes\n\n\nGrids of plots, customising plots (specifically size/position, themes and customising themes).\n\n\nggplots"
+  },
+  {
+    "objectID": "polls/poll-05.html",
+    "href": "polls/poll-05.html",
+    "title": "ReproRes Poll Class 05",
+    "section": "",
+    "text": "Take the Poll\n32 Participants"
+  },
+  {
+    "objectID": "polls/poll-05.html#row",
+    "href": "polls/poll-05.html#row",
+    "title": "ReproRes Poll Class 05",
+    "section": "Row",
+    "text": "Row\n\nHow did you engage with Chapter 5?\n\n\n\n\n\n\n\n\n\n\n\n#GreatPsychPumpkinBattle\n\n\n\n\n\n\n\n\n\n\n\nExtra Help"
+  },
+  {
+    "objectID": "polls/poll-05.html#row-1",
+    "href": "polls/poll-05.html#row-1",
+    "title": "ReproRes Poll Class 05",
+    "section": "Row",
+    "text": "Row\n\nList concepts you learned in Chapter 5 that you feel confident about.\n\n\n\n\n\n\n\n\n\n\n\nList concepts you learned in Chapter 5 that you feel less confident about and would like reviewed in class today."
+  },
+  {
+    "objectID": "polls/poll-05.html#row-2",
+    "href": "polls/poll-05.html#row-2",
+    "title": "ReproRes Poll Class 05",
+    "section": "Row",
+    "text": "Row\n\nConfident\n\n\n\n\n\n\n\n\n\n\nbasic joins\n\n\njoining data, separating data\n\n\nall of it\n\n\nData merging\n\n\ncombo tables\n\n\nleft and right join\n\n\nAll of them :)\n\n\nmutating joins, filtering joins, binding joins, 3 set operations\n\n\nJoining data\n\n\nAll\n\n\nNA\n\n\njoining verbs\n\n\njoins\n\n\nMerging tables together following various criteria\n\n\njoins\n\n\nmutating join verbs\n\n\nanti_join lol\n\n\nmutating, filtering, binding joins\n\n\nmerging\n\n\nSet Operations\n\n\ncombine tibbles\n\n\nMutating joins\n\n\nbinding joints, filtering joins\n\n\njoin\n\n\nalmost everything\n\n\n\n\n\n\n\n\n\nNot Confident\n\n\n\n\n\n\n\n\n\n\nsuffix, order in anti joins\n\n\nn/a\n\n\nBasic set up\n\n\ninner join\n\n\n-\n\n\nNone\n\n\nNA\n\n\ndifference between left/right_join and full join\n\n\nfiltering, set operations\n\n\nsemi_join, left_join etc.\n\n\nset operations\n\n\ndetails\n\n\nMutating Joins and Filtering Joins\n\n\nno\n\n\nBinding joins, set operations\n\n\nmanipulate table"
+  }
+]

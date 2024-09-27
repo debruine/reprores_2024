@@ -1,12 +1,6 @@
 ---
 title: "ReproRes Poll Class 01"
-format:
-  dashboard:
-    theme: yeti
-execute:
-  echo: false
-  message: false
-  warning: false
+format: dashboard
 ---
 
 ```{r setup, include=FALSE}

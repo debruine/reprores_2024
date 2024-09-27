@@ -1,0 +1,23 @@
+lang: en
+engine: knitr
+project:
+  type: website
+  output-dir: docs
+  resources: resources
+
+execute:
+  freeze: auto
+  echo: false
+  message: false
+  warning: false
+
+website:
+  title: "ReproRes 2024"
+  site-url: https://debruine.github.io/reprores_2024
+  repo-url: https://github.com/debruine/reprores_2024
+
+format:
+  html:
+    theme:
+      dark: darkly
+      light: flatly
