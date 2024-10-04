@@ -18,7 +18,14 @@
     "href": "index.html#class-02-2024-10-04",
     "title": "ReproRes 2024",
     "section": "Class 02 (2024-10-04)",
-    "text": "Class 02 (2024-10-04)\n\nPre-Class\n\nRead Chapter 2: Reports\nComplete the exercises for chapter 2\nLook at assessment 1"
+    "text": "Class 02 (2024-10-04)\n\nPre-Class\n\nRead Chapter 2: Reports\nComplete the exercises for chapter 2\nLook at assessment 1\nFill out the pre-class poll\n\n\n\nIn-Class\n\nPoll 2\nOpen the class book\nOpen RStudio\nStart at 13:05\nChapter 2 live code\nBreak\nAssessment 1 questions"
+  },
+  {
+    "objectID": "index.html#class-03-2024-10-11",
+    "href": "index.html#class-03-2024-10-11",
+    "title": "ReproRes 2024",
+    "section": "Class 03 (2024-10-11)",
+    "text": "Class 03 (2024-10-11)\n\nPre-Class\n\nSubmit assessment 1 by noon on Wednesday\nRead Chapter 3: DataViz\nComplete the exercises for chapter 3"
   },
   {
     "objectID": "polls/poll-04.html",
@@ -47,48 +54,6 @@
     "title": "ReproRes Poll Class 04",
     "section": "Row",
     "text": "Row\n\nConfident\n\n\n\n\n\n\n\n\n\n\nLoading and reading data.\n\n\nvectors, plotting\n\n\nload built in data sets, import data, understand basic data types, understand basic container types, troubleshoot data problems\n\n\nImport data from cvs files, understand the basic data types, structure data for scripting\n\n\nimporting, inspecting, creating data; basic data types\n\n\nimporting data, creating data tables\n\n\nnothing...\n\n\nSufficient knowledge\n\n\nreading in data, creating tibbles and columns\n\n\nvectorised operation\n\n\nData Structure, Built in data, importing, inspecting, writing, basic data types, basic container types\n\n\nimpoirt data\n\n\ndownloading data thats already in R\n\n\nvectors, import, export\n\n\nImporting data, Data types\n\n\naction on the dataset (until4.5\n\n\nAll\n\n\nData tables, basic data types, and basic container types\n\n\n1. Tibble creation 2. Column types 3. File types, their extensions and how to read and write them in R 4. Guidelines to making my data files easier to read in with less errors 5. How to actually read an error instead of looking at it, panicking and giving up 6. Telling R what each column in a table/dataset should be when it wrongly assumes 7. Using the functions sin() and cos()\n\n\nAll of them\n\n\n\n\n\n\n\n\n\nNot Confident\n\n\n\n\n\n\n\n\n\n\nChecking/cleaning the data.\n\n\nloading in data\n\n\nN/A\n\n\ncreate a data table, use vectorised operations\n\n\nbasic container types, vectorised operations, troubleshooting\n\n\nfactors, vectors, vectorized operations\n\n\ntroubleshooting\n\n\nlast weeks exercise that we never got through\n\n\nAll of them\n\n\nmodify imported data\n\n\ncreating data tables\n\n\ndifferent data format\n\n\nvectors\n\n\nhow to find our mid-term data files, how to define data values for plots\n\n\nTerminology and Set Up\n\n\ntibble function\n\n\nBasic Container types, changing data types when importing data\n\n\nthe last part(4.7 of the book\n\n\nTrouble shooting\n\n\n1. Being able to troubleshoot properly even when ive read the error code"
-  },
-  {
-    "objectID": "polls/poll-02.html",
-    "href": "polls/poll-02.html",
-    "title": "ReproRes Poll Class 02",
-    "section": "",
-    "text": "35 Participants"
-  },
-  {
-    "objectID": "polls/poll-02.html#row",
-    "href": "polls/poll-02.html#row",
-    "title": "ReproRes Poll Class 02",
-    "section": "Row",
-    "text": "Row\n\nHow did you engage with Chapter 2?"
-  },
-  {
-    "objectID": "polls/poll-02.html#row-1",
-    "href": "polls/poll-02.html#row-1",
-    "title": "ReproRes Poll Class 02",
-    "section": "Row",
-    "text": "Row\n\nWhat parts of Skills Self-Assessment did you find challenging or impossible?\n\n\n\n\n\n\n\n\n\n\n\nHow did you engage with the Skills Self-Assessment?"
-  },
-  {
-    "objectID": "polls/poll-02.html#row-2",
-    "href": "polls/poll-02.html#row-2",
-    "title": "ReproRes Poll Class 02",
-    "section": "Row",
-    "text": "Row\n\nHow are you accessing RStudio?\n\n\n\n\n\n\n\n\n\n\n\nHave you been studying in a group?"
-  },
-  {
-    "objectID": "polls/poll-02.html#row-3",
-    "href": "polls/poll-02.html#row-3",
-    "title": "ReproRes Poll Class 02",
-    "section": "Row",
-    "text": "Row\n\nList concepts you learned in Chapters 1 and 2 that you feel confident about.\n\n\n\n\n\n\n\n\n\n\n\nList concepts you learned in Chapters 1 and 2 that you feel less confident about and would like reviewed in class today."
-  },
-  {
-    "objectID": "polls/poll-02.html#row-4",
-    "href": "polls/poll-02.html#row-4",
-    "title": "ReproRes Poll Class 02",
-    "section": "Row",
-    "text": "Row\n\nConfident\n\n\n\n\n\n\n\n\n\n\nformatting project, finding helper, writing code\n\n\ninstalling packages and running them, variables, c(), making a table\n\n\nformatting r markdown, arguments, and utilizing the environment.\n\n\ndoing basic r syntax; writing in an r markdown file; creating a new project and r markdown file.\n\n\nsome code for calculation\n\n\nCreating a VERY basic table, installing & loading packages\n\n\nhardly anything\n\n\nyes\n\n\nDifferentiating between functions, arguments, objects; finding and creating datasets.\n\n\n1. importing data and organising/sorting it. 2. Starting scripts and Rmarkdown files 3. knowing what all the different symbols mean and how to use them. 4. The value of producing reproducible reports. 5. How to properly name files so they are well organised and useable. 6. Setting and working from directories. 7. How to produce a bibliography from a reference manager. 8. creating headings and subheadings. 9. creating bold and/or italic text 10. creating code chunks using backticks 11. how to make a code chunk be visible in the Rmarkdown file but not in the knitted output 12. how to create a basic table 14. how to include an image from a html link 15. how to create clickable hyperlinks in the knitted file\n\n\ninstalling packages, knowing methods for help, creating an Rmarkdown document, editing the YAML header, including tables and pictures,\n\n\nI feel pretty comfortable with all content so far\n\n\nEverything- I have extensively done R before so this is revision for me\n\n\nLoading and Installing Packages Basic Arithmatic\n\n\nI understand how to make a code chunk and that's basically the only thing I feel confident about.\n\n\nNo comment\n\n\nI feel quite confident with most of the other topics covered\n\n\nusing the function library, install_packages, using the r chunk\n\n\ncreating projects and rmarkdowns, editing the yaml header, writing inline\n\n\nopen R studio\n\n\nstart a R project\n\n\nCreating a project, using functions, using RMarkdown\n\n\nMarkdown, tables\n\n\nRMarkdown\n\n\nAll of chapter 1. Chapter 2 - Rmarkdown, working directory, YAML, setup, structure, code chunks, tables, images\n\n\ninstalling packages, listing, setting directory\n\n\nknit, r markdown, yaml, chunk\n\n\nknit, r markdown\n\n\n\n\n\n\n\n\n\nNot Confident\n\n\n\n\n\n\n\n\n\n\nadding images to rmarkdown\n\n\nlinking an image, Kable function/ using Kable for the yaml header\n\n\ncreating tables in R markdown\n\n\nmaking tables, adding bibliography to Rmarkdown, getting the toc to appear on Rmarkdown, i am confused about what fortunes is and the dplyr package has an error message when I try to install/load it\n\n\nhow to knit a table; how to use downloaded themes from bootstrap\n\n\nEditing YAML header, in-line R, using kable\n\n\nmarkdown\n\n\nAdding images, links and new data. Creating lists (e.g., bullet point lists)\n\n\nstruggled inserting an image struggled with the table my markdown wouldnt knit to html struggled changing the theme\n\n\nyes\n\n\nCitations & bibliography; YAML header personalisation & how to lay out the different options within the YAML header.\n\n\n1. how to include an image from a file already on your computer 2. how to alter table code to make them more aesthetically pleasing 3. how to simulate data\n\n\nreporting output of analysis using in-line R, adding bibliography and citations\n\n\nn/a, although am a bit rusty with adding images to r studio\n\n\nNothing\n\n\nTables and Polls General Terminology\n\n\nI onlu understood about the first half of chapter 2, and then could not figure out how to translate those skills to the exercise\n\n\nNo comment\n\n\nInserting images into RMarkdown and formatting them on the page\n\n\nThe rest with r markdown: making a table, compiling what I learnt from the videos and book into application\n\n\na code chunk\n\n\nchange the table style\n\n\nYAML headers\n\n\nbibliography, linked documents\n\n\nkable, headers, in-line R, inserting images, tables. most of chapter 2\n\n\ntables, image & figures\n\n\nMaking tables, inserting images, figures"
   },
   {
     "objectID": "resources/reprores_test.html",
