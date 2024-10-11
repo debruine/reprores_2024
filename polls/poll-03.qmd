@@ -85,7 +85,7 @@ words <- select(data, word = 3) %>%
   filter(!is.na(word)) %>%
   separate_longer_delim(word, stringr::regex("\\s*(,|;)\\s*")) |>
   count(word) %>%
-  filter(word != "", n > 1, !word %in% omitted) %>%
+  filter(word != "", n > 0, !word %in% omitted) %>%
   slice_max(order_by = n, n = 25, with_ties = FALSE)
 
 ggplot(words, aes(label = word, colour = word, size = n)) +
@@ -107,7 +107,7 @@ words <- select(data, word = 4) %>%
   filter(!is.na(word)) %>%
   separate_longer_delim(word, stringr::regex("\\s*(,|;)\\s*")) |>
   count(word) %>%
-  filter(word != "", n > 1, !word %in% omitted) %>%
+  filter(word != "", n > 0, !word %in% omitted) %>%
   slice_max(order_by = n, n = 25, with_ties = FALSE)
 
 ggplot(words, aes(label = word, colour = word, size = n)) +

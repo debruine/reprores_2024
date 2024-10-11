@@ -6,7 +6,7 @@ project:
   resources: resources
 
 execute:
-  freeze: auto
+  freeze: false
   echo: false
   message: false
   warning: false
