@@ -25,70 +25,14 @@
     "href": "index.html#class-03-2024-10-11",
     "title": "ReproRes 2024",
     "section": "Class 03 (2024-10-11)",
-    "text": "Class 03 (2024-10-11)\n\nPre-Class\n\nSubmit assessment 1 by noon on Wednesday\nRead Chapter 3: DataViz\nComplete the exercises for chapter 3"
+    "text": "Class 03 (2024-10-11)\n\nPre-Class\n\nSubmit assessment 1 by noon on Wednesday\nRead Chapter 3: DataViz\nComplete the exercises for chapter 3\nFill out the pre-class poll\n\n\n\nIn-Class\n\nPoll 3\nOpen the class book\nOpen RStudio\nStart at 13:05\nPaired coding exercise\nBreak\nChapter 3 overview\nAssessment 2 overview"
   },
   {
-    "objectID": "polls/poll-04.html",
-    "href": "polls/poll-04.html",
-    "title": "ReproRes Poll Class 04",
-    "section": "",
-    "text": "Take the Poll\n33 Participants"
-  },
-  {
-    "objectID": "polls/poll-04.html#row",
-    "href": "polls/poll-04.html#row",
-    "title": "ReproRes Poll Class 04",
-    "section": "Row",
-    "text": "Row\n\nHow did you engage with Chapter 4?\n\n\n\n\n\n\n\n\n\n\n\nWhat have you completed for the mid-term assessment?"
-  },
-  {
-    "objectID": "polls/poll-04.html#row-1",
-    "href": "polls/poll-04.html#row-1",
-    "title": "ReproRes Poll Class 04",
-    "section": "Row",
-    "text": "Row\n\nList concepts you learned in Chapter 4 that you feel confident about.\n\n\n\n\n\n\n\n\n\n\n\nList concepts you learned in Chapter 4 that you feel less confident about and would like reviewed in class today."
-  },
-  {
-    "objectID": "polls/poll-04.html#row-2",
-    "href": "polls/poll-04.html#row-2",
-    "title": "ReproRes Poll Class 04",
-    "section": "Row",
-    "text": "Row\n\nConfident\n\n\n\n\n\n\n\n\n\n\nLoading and reading data.\n\n\nvectors, plotting\n\n\nload built in data sets, import data, understand basic data types, understand basic container types, troubleshoot data problems\n\n\nImport data from cvs files, understand the basic data types, structure data for scripting\n\n\nimporting, inspecting, creating data; basic data types\n\n\nimporting data, creating data tables\n\n\nnothing...\n\n\nSufficient knowledge\n\n\nreading in data, creating tibbles and columns\n\n\nvectorised operation\n\n\nData Structure, Built in data, importing, inspecting, writing, basic data types, basic container types\n\n\nimpoirt data\n\n\ndownloading data thats already in R\n\n\nvectors, import, export\n\n\nImporting data, Data types\n\n\naction on the dataset (until4.5\n\n\nAll\n\n\nData tables, basic data types, and basic container types\n\n\n1. Tibble creation 2. Column types 3. File types, their extensions and how to read and write them in R 4. Guidelines to making my data files easier to read in with less errors 5. How to actually read an error instead of looking at it, panicking and giving up 6. Telling R what each column in a table/dataset should be when it wrongly assumes 7. Using the functions sin() and cos()\n\n\nAll of them\n\n\n\n\n\n\n\n\n\nNot Confident\n\n\n\n\n\n\n\n\n\n\nChecking/cleaning the data.\n\n\nloading in data\n\n\nN/A\n\n\ncreate a data table, use vectorised operations\n\n\nbasic container types, vectorised operations, troubleshooting\n\n\nfactors, vectors, vectorized operations\n\n\ntroubleshooting\n\n\nlast weeks exercise that we never got through\n\n\nAll of them\n\n\nmodify imported data\n\n\ncreating data tables\n\n\ndifferent data format\n\n\nvectors\n\n\nhow to find our mid-term data files, how to define data values for plots\n\n\nTerminology and Set Up\n\n\ntibble function\n\n\nBasic Container types, changing data types when importing data\n\n\nthe last part(4.7 of the book\n\n\nTrouble shooting\n\n\n1. Being able to troubleshoot properly even when ive read the error code"
-  },
-  {
-    "objectID": "resources/reprores_test.html",
-    "href": "resources/reprores_test.html",
-    "title": "Test",
-    "section": "",
-    "text": "Click the render button above, and install any packages if you are prompted. Once you have created an HTML document, you have succeeded!"
-  },
-  {
-    "objectID": "polls/poll-03.html",
-    "href": "polls/poll-03.html",
-    "title": "ReproRes Poll Class 03",
-    "section": "",
-    "text": "37 Participants"
-  },
-  {
-    "objectID": "polls/poll-03.html#row",
-    "href": "polls/poll-03.html#row",
-    "title": "ReproRes Poll Class 03",
-    "section": "Row",
-    "text": "Row\n\nHow did you engage with Chapter 3?\n\n\n\n\n\n\n\n\n\n\n\nWhat is your favourite colour?"
-  },
-  {
-    "objectID": "polls/poll-03.html#row-1",
-    "href": "polls/poll-03.html#row-1",
-    "title": "ReproRes Poll Class 03",
-    "section": "Row",
-    "text": "Row\n\nList concepts you learned in Chapter 3 that you feel confident about.\n\n\n\n\n\n\n\n\n\n\n\nList concepts you learned in Chapter 3 that you feel less confident about and would like reviewed in class today."
-  },
-  {
-    "objectID": "polls/poll-03.html#row-2",
-    "href": "polls/poll-03.html#row-2",
-    "title": "ReproRes Poll Class 03",
-    "section": "Row",
-    "text": "Row\n\nConfident\n\n\n\n\n\n\n\n\n\n\nbasic plots and ggplot2\n\n\nBox plot\n\n\nproducing visual representations of data\n\n\nThe box plot, density plot, violin plot\n\n\nLearn something about plot\n\n\nAll plots\n\n\nplot\n\n\nMaking plots & changing aspects of their design\n\n\neverything other than the last problem on the hw\n\n\nI'm happy with following instructions to create some of the more simpler graphs; setting up the rmarkdown file too.\n\n\nCommon plot types, customisations\n\n\nI feel confident that I know what plots what are and the codes that correspond with each type\n\n\nI feel ok about most of the basic plots!\n\n\nnot much, i would need to consult with the videos and book to make sure before doing anything\n\n\ncommand of simple plot\n\n\nPlotting graphs using ggplot, customizing plots, saving plots\n\n\nggplot graft\n\n\nviolin plot, boxplot, density plot\n\n\nggplot, violin plots, boxplot, facets\n\n\nData visualisation, ggplot\n\n\ncreating ggplot and customise\n\n\nHow to create and alter plots\n\n\nIdentifying some differences and the use of different plots\n\n\ncreat common graphs with ggplot, combine plots, save plot image\n\n\nMaking common types of plots using ggplot, customising colours.\n\n\nstat_summary\n\n\n\n\n\n\n\n\n\nNot Confident\n\n\n\n\n\n\n\n\n\n\nrecognizing all possible code combination\n\n\neverything\n\n\nTerminology and set up of exercises\n\n\nInstalling reprores, violin plots, changing colours + transparacy\n\n\nsaving the plots, faceting\n\n\neverything after that?\n\n\nfacets\n\n\nset up theme and complax graph\n\n\nthe last problem on the hw\n\n\nhow to change the colours of lines on the graphs and faceting\n\n\nLine graphs, overlapping continuous data\n\n\nI am unsure about what data should be presented in which plot (if that makes sense)\n\n\nColumn plots, a lot of layers\n\n\nthe second half of the exercise\n\n\ndownload data complex plot\n\n\nnow I know what Im doing hahahah\n\n\nfacets, combination plots, advanced grid plots\n\n\nfacets, advanced grids\n\n\ngrids, facets, column plot, vertical interval\n\n\n2D Density Plots\n\n\nCombine plots on the same plot, as facets, or as a grid using patchwork\n\n\nfile paths for saving and loading data\n\n\ngig-lots\n\n\nmost of the rest\n\n\ncolours and themes\n\n\nGrids of plots, customising plots (specifically size/position, themes and customising themes).\n\n\nggplots"
+    "objectID": "index.html#class-04-2024-10-18",
+    "href": "index.html#class-04-2024-10-18",
+    "title": "ReproRes 2024",
+    "section": "Class 04 (2024-10-18)",
+    "text": "Class 04 (2024-10-18)\n\nPre-Class\n\nRead Chapter 4: Summaries\nComplete the exercises\n\n\n\nIn-Class\n\nPoll 4\nOpen the class book\nOpen RStudio\nStart at 13:05\nChapter 4 live code\nBreak\nAssessment 2 questions"
   },
   {
     "objectID": "polls/poll-05.html",
@@ -117,5 +61,40 @@
     "title": "ReproRes Poll Class 05",
     "section": "Row",
     "text": "Row\n\nConfident\n\n\n\n\n\n\n\n\n\n\nbasic joins\n\n\njoining data, separating data\n\n\nall of it\n\n\nData merging\n\n\ncombo tables\n\n\nleft and right join\n\n\nAll of them :)\n\n\nmutating joins, filtering joins, binding joins, 3 set operations\n\n\nJoining data\n\n\nAll\n\n\nNA\n\n\njoining verbs\n\n\njoins\n\n\nMerging tables together following various criteria\n\n\njoins\n\n\nmutating join verbs\n\n\nanti_join lol\n\n\nmutating, filtering, binding joins\n\n\nmerging\n\n\nSet Operations\n\n\ncombine tibbles\n\n\nMutating joins\n\n\nbinding joints, filtering joins\n\n\njoin\n\n\nalmost everything\n\n\n\n\n\n\n\n\n\nNot Confident\n\n\n\n\n\n\n\n\n\n\nsuffix, order in anti joins\n\n\nn/a\n\n\nBasic set up\n\n\ninner join\n\n\n-\n\n\nNone\n\n\nNA\n\n\ndifference between left/right_join and full join\n\n\nfiltering, set operations\n\n\nsemi_join, left_join etc.\n\n\nset operations\n\n\ndetails\n\n\nMutating Joins and Filtering Joins\n\n\nno\n\n\nBinding joins, set operations\n\n\nmanipulate table"
+  },
+  {
+    "objectID": "resources/reprores_test.html",
+    "href": "resources/reprores_test.html",
+    "title": "Test",
+    "section": "",
+    "text": "Click the render button above, and install any packages if you are prompted. Once you have created an HTML document, you have succeeded!"
+  },
+  {
+    "objectID": "polls/poll-04.html",
+    "href": "polls/poll-04.html",
+    "title": "ReproRes Poll Class 04",
+    "section": "",
+    "text": "Take the Poll\n33 Participants"
+  },
+  {
+    "objectID": "polls/poll-04.html#row",
+    "href": "polls/poll-04.html#row",
+    "title": "ReproRes Poll Class 04",
+    "section": "Row",
+    "text": "Row\n\nHow did you engage with Chapter 4?\n\n\n\n\n\n\n\n\n\n\n\nWhat have you completed for the mid-term assessment?"
+  },
+  {
+    "objectID": "polls/poll-04.html#row-1",
+    "href": "polls/poll-04.html#row-1",
+    "title": "ReproRes Poll Class 04",
+    "section": "Row",
+    "text": "Row\n\nList concepts you learned in Chapter 4 that you feel confident about.\n\n\n\n\n\n\n\n\n\n\n\nList concepts you learned in Chapter 4 that you feel less confident about and would like reviewed in class today."
+  },
+  {
+    "objectID": "polls/poll-04.html#row-2",
+    "href": "polls/poll-04.html#row-2",
+    "title": "ReproRes Poll Class 04",
+    "section": "Row",
+    "text": "Row\n\nConfident\n\n\n\n\n\n\n\n\n\n\nLoading and reading data.\n\n\nvectors, plotting\n\n\nload built in data sets, import data, understand basic data types, understand basic container types, troubleshoot data problems\n\n\nImport data from cvs files, understand the basic data types, structure data for scripting\n\n\nimporting, inspecting, creating data; basic data types\n\n\nimporting data, creating data tables\n\n\nnothing...\n\n\nSufficient knowledge\n\n\nreading in data, creating tibbles and columns\n\n\nvectorised operation\n\n\nData Structure, Built in data, importing, inspecting, writing, basic data types, basic container types\n\n\nimpoirt data\n\n\ndownloading data thats already in R\n\n\nvectors, import, export\n\n\nImporting data, Data types\n\n\naction on the dataset (until4.5\n\n\nAll\n\n\nData tables, basic data types, and basic container types\n\n\n1. Tibble creation 2. Column types 3. File types, their extensions and how to read and write them in R 4. Guidelines to making my data files easier to read in with less errors 5. How to actually read an error instead of looking at it, panicking and giving up 6. Telling R what each column in a table/dataset should be when it wrongly assumes 7. Using the functions sin() and cos()\n\n\nAll of them\n\n\n\n\n\n\n\n\n\nNot Confident\n\n\n\n\n\n\n\n\n\n\nChecking/cleaning the data.\n\n\nloading in data\n\n\nN/A\n\n\ncreate a data table, use vectorised operations\n\n\nbasic container types, vectorised operations, troubleshooting\n\n\nfactors, vectors, vectorized operations\n\n\ntroubleshooting\n\n\nlast weeks exercise that we never got through\n\n\nAll of them\n\n\nmodify imported data\n\n\ncreating data tables\n\n\ndifferent data format\n\n\nvectors\n\n\nhow to find our mid-term data files, how to define data values for plots\n\n\nTerminology and Set Up\n\n\ntibble function\n\n\nBasic Container types, changing data types when importing data\n\n\nthe last part(4.7 of the book\n\n\nTrouble shooting\n\n\n1. Being able to troubleshoot properly even when ive read the error code"
   }
 ]

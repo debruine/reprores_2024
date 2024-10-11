@@ -26,7 +26,7 @@ scale_colour <- scale_colour_brewer(palette = "Spectral", drop=FALSE)
 # read data
 url <- "1o3dPW6yKUVE7pdnPKtfusW5reMtnQi7yQi5La2uafe4"
 data <- read_sheet(url, sheet = "Week2") %>%
-  filter(row_number() != 0)
+  filter(row_number() != 1)
 
 
 engage <- c(book = "Read the book", 
@@ -100,11 +100,11 @@ Row
 #| title: Confident
 omitted <- c(stop_words$word, "im", 0:9)
 
-words <- select(data, confident = 4) %>%
-  filter(!is.na(confident)) %>%
-  unnest_tokens(output = "word", input = "confident") %>%
+words <- select(data, word = 4) %>%
+  filter(!is.na(word)) %>%
+  separate_longer_delim(word, stringr::regex("\\s*(,|;)\\s*")) |>
   count(word) %>%
-  filter(!word %in% omitted) %>%
+  filter(word != "", n > 1, !word %in% omitted) %>%
   slice_max(order_by = n, n = 25, with_ties = FALSE)
 
 ggplot(words, aes(label = word, colour = word, size = n)) +
@@ -122,11 +122,11 @@ ggplot(words, aes(label = word, colour = word, size = n)) +
 #| title: Less Confident
 omitted <- c(stop_words$word, "im", 0:9)
 
-words <- select(data, confident = 5) %>%
-  filter(!is.na(confident)) %>%
-  unnest_tokens(output = "word", input = "confident") %>%
+words <- select(data, word = 5) %>%
+  filter(!is.na(word)) %>%
+  separate_longer_delim(word, stringr::regex("\\s*(,|;)\\s*")) |>
   count(word) %>%
-  filter(!word %in% omitted) %>%
+  filter(word != "", n > 1, !word %in% omitted) %>%
   slice_max(order_by = n, n = 25, with_ties = FALSE)
 
 ggplot(words, aes(label = word, colour = word, size = n)) +
@@ -143,9 +143,10 @@ Row
 
 ```{r}
 #| title: Confident
-select(data, confident = 4) %>%
-  filter(!is.na(confident)) %>%
-  separate_longer_delim(cols = confident, delim = ",") %>%
+select(data, word = 4) %>%
+  filter(!is.na(word)) %>%
+  separate_longer_delim(word, stringr::regex("\\s*(,|;)\\s*")) |>
+  filter(word != "") %>%
   kable(row.names = FALSE, col.names = "") %>%
   kable_classic(lightable_options = "striped")
 ```
@@ -155,9 +156,10 @@ select(data, confident = 4) %>%
 
 ```{r}
 #| title: Less Confident
-select(data, confident = 5) %>%
-  filter(!is.na(confident)) %>%
-  separate_longer_delim(cols = confident, delim = ",") %>%
+select(data, word = 5) %>%
+  filter(!is.na(word)) %>%
+  separate_longer_delim(word, stringr::regex("\\s*(,|;)\\s*")) |>
+  filter(word != "") %>%
   kable(row.names = FALSE, col.names = "") %>%
   kable_classic(lightable_options = "striped")
 ```

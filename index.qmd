@@ -69,3 +69,33 @@ format:
 - Submit [assessment 1](https://psyteachr.github.io/reprores-v4/assessment-1.html) by noon on Wednesday
 - Read [Chapter 3: DataViz](https://psyteachr.github.io/reprores-v4/03-viz.html)
 - Complete the [exercises](https://psyteachr.github.io/reprores-v4/03-viz.html#exercises) for chapter 3
+- [ ] Fill out the [pre-class poll](https://forms.gle/g6YoyMgtLQBqgyH89)
+
+### In-Class
+
+- [Poll 3](polls/poll-03.html)
+- Open the [class book](https://psyteachr.github.io/reprores-v4/)
+- Open RStudio 
+- Start at 13:05
+- Paired coding exercise
+- Break
+- [Chapter 3](https://psyteachr.github.io/reprores-v4/03-viz.html) overview
+- [Assessment 2](https://psyteachr.github.io/reprores-v4/assessment-2.html) overview
+
+
+## Class 04 (2024-10-18)
+
+### Pre-Class
+
+- Read [Chapter 4: Summaries](https://psyteachr.github.io/reprores-v4/04-summary.html)
+- Complete the [exercises](https://psyteachr.github.io/reprores-v4/04-summary.html#exercises)
+
+### In-Class
+
+- [Poll 4](polls/poll-04.html)
+- Open the [class book](https://psyteachr.github.io/reprores-v4/)
+- Open RStudio 
+- Start at 13:05
+- [Chapter 4](https://psyteachr.github.io/reprores-v4/04-summary.html) live code
+- Break
+- [Assessment 2](https://psyteachr.github.io/reprores-v4/assessment-2.html) questions
