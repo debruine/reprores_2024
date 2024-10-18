@@ -17,8 +17,8 @@ library(tidytext) # for manipulating text for word clouds
 
 ```{r, eval = TRUE}
 theme_set(theme_fivethirtyeight(base_size = 24))
-scale_fill <- scale_fill_brewer(palette = "Spectral", drop=FALSE)
-scale_colour <- scale_colour_brewer(palette = "Spectral", drop=FALSE)
+scale_fill <- scale_fill_viridis_d()
+scale_colour <- scale_colour_viridis_d()
 ```
 
 ```{r}
@@ -57,7 +57,7 @@ ggplot(subdat, aes(x = x, fill = x)) +
 ### What have you completed for the mid-term assessment?
 
 ```{r}
-midterm <- c(download = "Downloaded my data",
+midterm <- c(download = "Downloaded the data",
              project = "Created a project",
              qmd = "Created the quarto file",
              YAML = "Edited the YAML header",
