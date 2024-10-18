@@ -1,0 +1,38 @@
+---
+title: "Psychological Therapies Referrals"
+format: 
+  html:
+    embed-resources: true
+execute: 
+  echo: false
+---
+
+```{r}
+#| include: false
+library(tidyverse)
+```
+
+
+```{r}
+pt <- read_csv("data/pt-referrals.csv")
+```
+
+```{r}
+monthly <- summarise(pt, 
+                     received = sum(ReferralsReceived, na.rm = TRUE),
+                     accepted = sum(ReferralsAccepted, na.rm = TRUE),
+                     .by = Month)
+
+monthly$month <- ymd(paste0(monthly$Month, "01"))
+```
+
+
+```{r}
+ggplot(monthly, aes(x = month, y = received)) +
+  geom_line()
+```
+
+
+
+
+

@@ -69,7 +69,7 @@ format:
 - Submit [assessment 1](https://psyteachr.github.io/reprores-v4/assessment-1.html) by noon on Wednesday
 - Read [Chapter 3: DataViz](https://psyteachr.github.io/reprores-v4/03-viz.html)
 - Complete the [exercises](https://psyteachr.github.io/reprores-v4/03-viz.html#exercises) for chapter 3
-- [ ] Fill out the [pre-class poll](https://forms.gle/g6YoyMgtLQBqgyH89)
+- Fill out the [pre-class poll](https://forms.gle/g6YoyMgtLQBqgyH89)
 
 ### In-Class
 
@@ -89,13 +89,19 @@ format:
 
 - Read [Chapter 4: Summaries](https://psyteachr.github.io/reprores-v4/04-summary.html)
 - Complete the [exercises](https://psyteachr.github.io/reprores-v4/04-summary.html#exercises)
+- Fill out the [pre-class poll](https://forms.gle/ZWiUH44aZZahGvwZ9)
 
 ### In-Class
 
 - [Poll 4](polls/poll-04.html)
 - Open the [class book](https://psyteachr.github.io/reprores-v4/)
 - Open RStudio 
+- Download [psychological therapies referral data](https://www.opendata.nhs.scot/dataset/psychological-therapies-waiting-times/resource/cfc4b998-c3d6-418f-91e6-a17806de94e0)
 - Start at 13:05
-- [Chapter 4](https://psyteachr.github.io/reprores-v4/04-summary.html) live code
+- Paired programming
+    1. Set up a quarto document, load the dataset, and inspect it (10 min)
+    2. Create a data table with the total number of referrals received and accepted per month (10 min)
+    3. Plot referrals per month (15 min)
+        (hint: you will need to convert the `Month` column to a date; you can ask ChatGPT)
 - Break
 - [Assessment 2](https://psyteachr.github.io/reprores-v4/assessment-2.html) questions

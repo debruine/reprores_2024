@@ -1,24 +1,10 @@
 ---
 title: "ReproRes Poll Class 04"
-output: 
-  flexdashboard::flex_dashboard:
-    orientation: rows
-    vertical_layout: scroll
-    theme: yeti
+format: dashboard
 ---
 
-[Take the Poll](https://forms.gle/yee8TwyKn5PefPkK7)
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(
-  echo = FALSE,
-  message = FALSE,
-  warning = FALSE,
-  fig.width = 10,
-  fig.height = 5
-)
-
-library(flexdashboard)
 library(kableExtra)
 library(tidyverse)
 library(googlesheets4)
@@ -37,13 +23,11 @@ scale_colour <- scale_colour_brewer(palette = "Spectral", drop=FALSE)
 
 ```{r}
 # read data
-url <- "12NzVYBAS0VyOol6sQu3cojjtRwURn3kMTesB2uWzjUQ"
-data <- read_sheet(url, sheet = "Week4") |>
-  filter(row_number() > 1)
+url <- "1o3dPW6yKUVE7pdnPKtfusW5reMtnQi7yQi5La2uafe4"
+data <- read_sheet(url, sheet = "Week4")
 
 
 engage <- c(book = "Read the book", 
-            videos = "Watched the videos", 
             exercise = "Did the formative exercise",
             none = "I didn't get a chance this week")
 
@@ -75,14 +59,16 @@ ggplot(subdat, aes(x = x, fill = x)) +
 ```{r}
 midterm <- c(download = "Downloaded my data",
              project = "Created a project",
-             Rmd = "Created the R Markdown file",
+             qmd = "Created the quarto file",
              YAML = "Edited the YAML header",
              biblio = "Set up the bibliography",
              headers = "Added the header structure and text",
              loaded = "Loaded the data",
-             wrangled = "Wrangled the data",
-             dataviz = "Visualised the data",
-             analysis = "Created the reproducible analysis results text")
+             plot1 = "Plot 1",
+             plot2 = "Plot 2",
+             plot3 = "Plot 3",
+             table1 = "Table 1",
+             table2 = "Table 2")
 
 subdat <- select(data, x = 5) %>%
   separate_rows(x, sep = ", ") %>%
@@ -103,51 +89,57 @@ Row {data-height=400}
 ### List concepts you learned in Chapter 4 that you feel confident about.
 
 ```{r}
+#| title: Confident
 omitted <- c(stop_words$word, "im", 0:9)
 
-words <- select(data, confident = 3) %>%
-  filter(!is.na(confident)) %>%
-  unnest_tokens(output = "word", input = "confident") %>%
+words <- select(data, word = 3) %>%
+  filter(!is.na(word)) %>%
+  separate_longer_delim(word, stringr::regex("\\s*(,|;)\\s*")) |>
   count(word) %>%
-  filter(!word %in% omitted) %>%
+  filter(word != "", n > 0, !word %in% omitted) %>%
   slice_max(order_by = n, n = 25, with_ties = FALSE)
 
 ggplot(words, aes(label = word, colour = word, size = n)) +
   geom_text_wordcloud_area() +
   scale_size_area(max_size = 14) +
   theme_minimal(base_size = 10) +
-  scale_color_see_d(palette = "full") 
+  scale_color_see_d(palette = "ice") 
 ```
+
 
 
 
 ### List concepts you learned in Chapter 4 that you feel less confident about and would like reviewed in class today.
 
 ```{r}
+#| title: Less Confident
 omitted <- c(stop_words$word, "im", 0:9)
 
-words <- select(data, confident = 4) %>%
-  filter(!is.na(confident)) %>%
-  unnest_tokens(output = "word", input = "confident") %>%
+words <- select(data, word = 4) %>%
+  filter(!is.na(word)) %>%
+  separate_longer_delim(word, stringr::regex("\\s*(,|;)\\s*")) |>
   count(word) %>%
-  filter(!word %in% omitted) %>%
+  filter(word != "", n > 0, !word %in% omitted) %>%
   slice_max(order_by = n, n = 25, with_ties = FALSE)
 
 ggplot(words, aes(label = word, colour = word, size = n)) +
   geom_text_wordcloud_area() +
   scale_size_area(max_size = 20) +
   theme_minimal(base_size = 14) +
-  scale_color_see_d(palette = "full") 
+  scale_color_see_d(palette = "ice") 
 ```
 
-Row {data-height=600}
+Row 
 -----------------------------------------------------------------------
 
 ### Confident 
 
 ```{r}
-select(data, confident = 3) %>%
-  filter(!is.na(confident)) %>%
+#| title: Confident
+select(data, word = 3) %>%
+  filter(!is.na(word)) %>%
+  separate_longer_delim(word, stringr::regex("\\s*(,|;)\\s*")) |>
+  filter(word != "") %>%
   kable(row.names = FALSE, col.names = "") %>%
   kable_classic(lightable_options = "striped")
 ```
@@ -156,8 +148,12 @@ select(data, confident = 3) %>%
 ### Not Confident 
 
 ```{r}
-select(data, confident = 4) %>%
-  filter(!is.na(confident)) %>%
+#| title: Less Confident
+select(data, word = 4) %>%
+  filter(!is.na(word)) %>%
+  separate_longer_delim(word, stringr::regex("\\s*(,|;)\\s*")) |>
+  filter(word != "") %>%
   kable(row.names = FALSE, col.names = "") %>%
   kable_classic(lightable_options = "striped")
 ```
+

@@ -32,7 +32,7 @@
     "href": "index.html#class-04-2024-10-18",
     "title": "ReproRes 2024",
     "section": "Class 04 (2024-10-18)",
-    "text": "Class 04 (2024-10-18)\n\nPre-Class\n\nRead Chapter 4: Summaries\nComplete the exercises\n\n\n\nIn-Class\n\nPoll 4\nOpen the class book\nOpen RStudio\nStart at 13:05\nChapter 4 live code\nBreak\nAssessment 2 questions"
+    "text": "Class 04 (2024-10-18)\n\nPre-Class\n\nRead Chapter 4: Summaries\nComplete the exercises\nFill out the pre-class poll\n\n\n\nIn-Class\n\nPoll 4\nOpen the class book\nOpen RStudio\nDownload psychological therapies referral data\nStart at 13:05\nPaired programming\n\nSet up a quarto document, load the dataset, and inspect it (10 min)\nCreate a data table with the total number of referrals received and accepted per month (10 min)\nPlot referrals per month (15 min) (hint: you will need to convert the Month column to a date; you can ask ChatGPT)\n\nBreak\nAssessment 2 questions"
   },
   {
     "objectID": "polls/poll-05.html",
@@ -74,7 +74,7 @@
     "href": "polls/poll-04.html",
     "title": "ReproRes Poll Class 04",
     "section": "",
-    "text": "Take the Poll\n35 Participants"
+    "text": "1 Participants"
   },
   {
     "objectID": "polls/poll-04.html#row",
@@ -95,6 +95,34 @@
     "href": "polls/poll-04.html#row-2",
     "title": "ReproRes Poll Class 04",
     "section": "Row",
-    "text": "Row\n\nConfident\n\n\n\n\n\n\n\n\n\n\nLoading and reading data.\n\n\nvectors, plotting\n\n\nload built in data sets, import data, understand basic data types, understand basic container types, troubleshoot data problems\n\n\nImport data from cvs files, understand the basic data types, structure data for scripting\n\n\nimporting, inspecting, creating data; basic data types\n\n\nimporting data, creating data tables\n\n\nnothing...\n\n\nSufficient knowledge\n\n\nreading in data, creating tibbles and columns\n\n\nvectorised operation\n\n\nData Structure, Built in data, importing, inspecting, writing, basic data types, basic container types\n\n\nimpoirt data\n\n\ndownloading data thats already in R\n\n\nvectors, import, export\n\n\nImporting data, Data types\n\n\naction on the dataset (until4.5\n\n\nAll\n\n\nData tables, basic data types, and basic container types\n\n\n1. Tibble creation 2. Column types 3. File types, their extensions and how to read and write them in R 4. Guidelines to making my data files easier to read in with less errors 5. How to actually read an error instead of looking at it, panicking and giving up 6. Telling R what each column in a table/dataset should be when it wrongly assumes 7. Using the functions sin() and\n\n\nAll of them\n\n\ndata\n\n\nggplot\n\n\n\n\n\n\n\n\n\nNot Confident\n\n\n\n\n\n\n\n\n\n\nChecking/cleaning the data.\n\n\nloading in data\n\n\nN/A\n\n\ncreate a data table, use vectorised operations\n\n\nbasic container types, vectorised operations, troubleshooting\n\n\nfactors, vectors, vectorized operations\n\n\ntroubleshooting\n\n\nlast weeks exercise that we never got through\n\n\nAll of them\n\n\nmodify imported data\n\n\ncreating data tables\n\n\ndifferent data format\n\n\nvectors\n\n\nhow to find our mid-term data files, how to define data values for plots\n\n\nTerminology and Set Up\n\n\ntibble function\n\n\nBasic Container types, changing data types when importing data\n\n\nthe last part(4.7 of the book\n\n\nTrouble shooting\n\n\n1. Being able to troubleshoot properly even when ive read the error code\n\n\nvectors"
+    "text": "Row\n\nConfident\n\n\n\n\n\n\n\n\n\n\nNA\n\n\n:--\n\n\n\n\n\n\n\n\n\nNot Confident\n\n\n\n\n\n\n\n\n\n\nNA\n\n\n:--"
+  },
+  {
+    "objectID": "plots_report.html",
+    "href": "plots_report.html",
+    "title": "Plot Report",
+    "section": "",
+    "text": "ID: unique ID\nAg : Agreeableness score"
+  },
+  {
+    "objectID": "plots_report.html#overview",
+    "href": "plots_report.html#overview",
+    "title": "Plot Report",
+    "section": "",
+    "text": "ID: unique ID\nAg : Agreeableness score"
+  },
+  {
+    "objectID": "plots_report.html#agreeableness-distribution",
+    "href": "plots_report.html#agreeableness-distribution",
+    "title": "Plot Report",
+    "section": "Agreeableness Distribution",
+    "text": "Agreeableness Distribution"
+  },
+  {
+    "objectID": "plots_report.html#all-distributions",
+    "href": "plots_report.html#all-distributions",
+    "title": "Plot Report",
+    "section": "All Distributions",
+    "text": "All Distributions"
   }
 ]
