@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://debruine.github.io/reprores_2024/pt.html</loc>
+    <lastmod>2024-10-18T08:42:46.659Z</lastmod>
+  </url>
+  <url>
     <loc>https://debruine.github.io/reprores_2024/index.html</loc>
     <lastmod>2024-10-18T09:00:36.861Z</lastmod>
   </url>
@@ -31,9 +35,5 @@
   <url>
     <loc>https://debruine.github.io/reprores_2024/plots_report.html</loc>
     <lastmod>2024-10-11T14:00:45.715Z</lastmod>
-  </url>
-  <url>
-    <loc>https://debruine.github.io/reprores_2024/pt.html</loc>
-    <lastmod>2024-10-18T08:42:46.659Z</lastmod>
   </url>
 </urlset>
