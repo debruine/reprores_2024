@@ -1,0 +1,55 @@
+---
+title: "PT Data"
+format:
+  html:
+    embed-resources: true
+    df-print: kable
+execute: 
+  echo: true
+---
+
+
+```{r}
+#| label: setup
+#| include: false
+
+library(tidyverse)
+```
+
+## Load Data
+
+```{r}
+
+ct <- cols(
+  HB = col_character(),
+  Month = col_date(),
+  ReferralsAccepted = col_integer(),
+  ReferralsAcceptedQF = col_character(),
+  ReferralsReceived = col_integer(),
+  ReferralsReceivedQF = col_character()
+)
+
+pt_data <- read_csv("data/pt-referrals.csv",
+                    show_col_types = FALSE,
+                    #col_types = ct,
+                    na = c("", "missing", "Missing", "missing "))
+
+```
+
+
+## Referrals by Month
+
+```{r}
+monthly <- summarise(pt_data, .by = Month,
+                     received = sum(ReferralsReceived, na.rm = TRUE),
+                     accepted = sum(ReferralsAccepted, na.rm = TRUE)) |>
+  mutate(date = ymd(Month*100 + 1),
+         pcnt = accepted / received)
+```
+
+```{r}
+ggplot(monthly, aes(x = date, y = received)) +
+  geom_line()
+```
+
+

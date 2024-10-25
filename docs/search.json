@@ -1,5 +1,68 @@
 [
   {
+    "objectID": "plots_report.html",
+    "href": "plots_report.html",
+    "title": "Plot Report",
+    "section": "",
+    "text": "ID: unique ID\nAg : Agreeableness score"
+  },
+  {
+    "objectID": "plots_report.html#overview",
+    "href": "plots_report.html#overview",
+    "title": "Plot Report",
+    "section": "",
+    "text": "ID: unique ID\nAg : Agreeableness score"
+  },
+  {
+    "objectID": "plots_report.html#agreeableness-distribution",
+    "href": "plots_report.html#agreeableness-distribution",
+    "title": "Plot Report",
+    "section": "Agreeableness Distribution",
+    "text": "Agreeableness Distribution"
+  },
+  {
+    "objectID": "plots_report.html#all-distributions",
+    "href": "plots_report.html#all-distributions",
+    "title": "Plot Report",
+    "section": "All Distributions",
+    "text": "All Distributions"
+  },
+  {
+    "objectID": "resources/reprores_test.html",
+    "href": "resources/reprores_test.html",
+    "title": "Test",
+    "section": "",
+    "text": "Click the render button above, and install any packages if you are prompted. Once you have created an HTML document, you have succeeded!"
+  },
+  {
+    "objectID": "polls/poll-05.html",
+    "href": "polls/poll-05.html",
+    "title": "ReproRes Poll Class 05",
+    "section": "",
+    "text": "Take the Poll\n32 Participants"
+  },
+  {
+    "objectID": "polls/poll-05.html#row",
+    "href": "polls/poll-05.html#row",
+    "title": "ReproRes Poll Class 05",
+    "section": "Row",
+    "text": "Row\n\nHow did you engage with Chapter 5?\n\n\n\n\n\n\n\n\n\n\n\n#GreatPsychPumpkinBattle\n\n\n\n\n\n\n\n\n\n\n\nExtra Help"
+  },
+  {
+    "objectID": "polls/poll-05.html#row-1",
+    "href": "polls/poll-05.html#row-1",
+    "title": "ReproRes Poll Class 05",
+    "section": "Row",
+    "text": "Row\n\nList concepts you learned in Chapter 5 that you feel confident about.\n\n\n\n\n\n\n\n\n\n\n\nList concepts you learned in Chapter 5 that you feel less confident about and would like reviewed in class today."
+  },
+  {
+    "objectID": "polls/poll-05.html#row-2",
+    "href": "polls/poll-05.html#row-2",
+    "title": "ReproRes Poll Class 05",
+    "section": "Row",
+    "text": "Row\n\nConfident\n\n\n\n\n\n\n\n\n\n\nbasic joins\n\n\njoining data, separating data\n\n\nall of it\n\n\nData merging\n\n\ncombo tables\n\n\nleft and right join\n\n\nAll of them :)\n\n\nmutating joins, filtering joins, binding joins, 3 set operations\n\n\nJoining data\n\n\nAll\n\n\nNA\n\n\njoining verbs\n\n\njoins\n\n\nMerging tables together following various criteria\n\n\njoins\n\n\nmutating join verbs\n\n\nanti_join lol\n\n\nmutating, filtering, binding joins\n\n\nmerging\n\n\nSet Operations\n\n\ncombine tibbles\n\n\nMutating joins\n\n\nbinding joints, filtering joins\n\n\njoin\n\n\nalmost everything\n\n\n\n\n\n\n\n\n\nNot Confident\n\n\n\n\n\n\n\n\n\n\nsuffix, order in anti joins\n\n\nn/a\n\n\nBasic set up\n\n\ninner join\n\n\n-\n\n\nNone\n\n\nNA\n\n\ndifference between left/right_join and full join\n\n\nfiltering, set operations\n\n\nsemi_join, left_join etc.\n\n\nset operations\n\n\ndetails\n\n\nMutating Joins and Filtering Joins\n\n\nno\n\n\nBinding joins, set operations\n\n\nmanipulate table"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "ReproRes 2024",
@@ -35,66 +98,31 @@
     "text": "Class 04 (2024-10-18)\n\nPre-Class\n\nRead Chapter 4: Summaries\nComplete the exercises\nFill out the pre-class poll\n\n\n\nIn-Class\n\nPoll 4\nOpen the class book\nOpen RStudio\nDownload psychological therapies referral data\nStart at 13:05\nPaired programming\n\nSet up a quarto document, load the dataset, and inspect it (10 min)\nCreate a data table with the total number of referrals received and accepted per month (10 min)\nPlot referrals per month (15 min) (hint: you will need to convert the Month column to a date; you can ask ChatGPT)\n\nBreak\nAssessment 2 questions"
   },
   {
-    "objectID": "polls/poll-05.html",
-    "href": "polls/poll-05.html",
-    "title": "ReproRes Poll Class 05",
+    "objectID": "index.html#class-05-2024-10-25",
+    "href": "index.html#class-05-2024-10-25",
+    "title": "ReproRes 2024",
+    "section": "Class 05 (2024-10-25)",
+    "text": "Class 05 (2024-10-25)\n\nPre-Class\n\nRead Chapter 5: Data Relations\nLook at the exercises\n\n\n\nIn-Class\n\nOpen the class book\nOpen RStudio\nStart at 13:05\nPaired programming of Chapter 5 exercises\n\nGrade data: Set up a quarto document, load the datasets, and inspect them (10 min)\nMatching the variable types and Complete records (10 min)\n\nLisa will probably gibber about joins a lot!\nBreak\nPaired programming:\n\nMissing data (20 min)\n\nMore joins questions\nAssessment 3 introduction"
+  },
+  {
+    "objectID": "pt-data.html",
+    "href": "pt-data.html",
+    "title": "PT Data",
     "section": "",
-    "text": "Take the Poll\n32 Participants"
+    "text": "ct &lt;- cols(\n  HB = col_character(),\n  Month = col_date(),\n  ReferralsAccepted = col_integer(),\n  ReferralsAcceptedQF = col_character(),\n  ReferralsReceived = col_integer(),\n  ReferralsReceivedQF = col_character()\n)\n\npt_data &lt;- read_csv(\"data/pt-referrals.csv\",\n                    show_col_types = FALSE,\n                    #col_types = ct,\n                    na = c(\"\", \"missing\", \"Missing\", \"missing \"))"
   },
   {
-    "objectID": "polls/poll-05.html#row",
-    "href": "polls/poll-05.html#row",
-    "title": "ReproRes Poll Class 05",
-    "section": "Row",
-    "text": "Row\n\nHow did you engage with Chapter 5?\n\n\n\n\n\n\n\n\n\n\n\n#GreatPsychPumpkinBattle\n\n\n\n\n\n\n\n\n\n\n\nExtra Help"
-  },
-  {
-    "objectID": "polls/poll-05.html#row-1",
-    "href": "polls/poll-05.html#row-1",
-    "title": "ReproRes Poll Class 05",
-    "section": "Row",
-    "text": "Row\n\nList concepts you learned in Chapter 5 that you feel confident about.\n\n\n\n\n\n\n\n\n\n\n\nList concepts you learned in Chapter 5 that you feel less confident about and would like reviewed in class today."
-  },
-  {
-    "objectID": "polls/poll-05.html#row-2",
-    "href": "polls/poll-05.html#row-2",
-    "title": "ReproRes Poll Class 05",
-    "section": "Row",
-    "text": "Row\n\nConfident\n\n\n\n\n\n\n\n\n\n\nbasic joins\n\n\njoining data, separating data\n\n\nall of it\n\n\nData merging\n\n\ncombo tables\n\n\nleft and right join\n\n\nAll of them :)\n\n\nmutating joins, filtering joins, binding joins, 3 set operations\n\n\nJoining data\n\n\nAll\n\n\nNA\n\n\njoining verbs\n\n\njoins\n\n\nMerging tables together following various criteria\n\n\njoins\n\n\nmutating join verbs\n\n\nanti_join lol\n\n\nmutating, filtering, binding joins\n\n\nmerging\n\n\nSet Operations\n\n\ncombine tibbles\n\n\nMutating joins\n\n\nbinding joints, filtering joins\n\n\njoin\n\n\nalmost everything\n\n\n\n\n\n\n\n\n\nNot Confident\n\n\n\n\n\n\n\n\n\n\nsuffix, order in anti joins\n\n\nn/a\n\n\nBasic set up\n\n\ninner join\n\n\n-\n\n\nNone\n\n\nNA\n\n\ndifference between left/right_join and full join\n\n\nfiltering, set operations\n\n\nsemi_join, left_join etc.\n\n\nset operations\n\n\ndetails\n\n\nMutating Joins and Filtering Joins\n\n\nno\n\n\nBinding joins, set operations\n\n\nmanipulate table"
-  },
-  {
-    "objectID": "resources/reprores_test.html",
-    "href": "resources/reprores_test.html",
-    "title": "Test",
+    "objectID": "pt-data.html#load-data",
+    "href": "pt-data.html#load-data",
+    "title": "PT Data",
     "section": "",
-    "text": "Click the render button above, and install any packages if you are prompted. Once you have created an HTML document, you have succeeded!"
+    "text": "ct &lt;- cols(\n  HB = col_character(),\n  Month = col_date(),\n  ReferralsAccepted = col_integer(),\n  ReferralsAcceptedQF = col_character(),\n  ReferralsReceived = col_integer(),\n  ReferralsReceivedQF = col_character()\n)\n\npt_data &lt;- read_csv(\"data/pt-referrals.csv\",\n                    show_col_types = FALSE,\n                    #col_types = ct,\n                    na = c(\"\", \"missing\", \"Missing\", \"missing \"))"
   },
   {
-    "objectID": "plots_report.html",
-    "href": "plots_report.html",
-    "title": "Plot Report",
-    "section": "",
-    "text": "ID: unique ID\nAg : Agreeableness score"
-  },
-  {
-    "objectID": "plots_report.html#overview",
-    "href": "plots_report.html#overview",
-    "title": "Plot Report",
-    "section": "",
-    "text": "ID: unique ID\nAg : Agreeableness score"
-  },
-  {
-    "objectID": "plots_report.html#agreeableness-distribution",
-    "href": "plots_report.html#agreeableness-distribution",
-    "title": "Plot Report",
-    "section": "Agreeableness Distribution",
-    "text": "Agreeableness Distribution"
-  },
-  {
-    "objectID": "plots_report.html#all-distributions",
-    "href": "plots_report.html#all-distributions",
-    "title": "Plot Report",
-    "section": "All Distributions",
-    "text": "All Distributions"
+    "objectID": "pt-data.html#referrals-by-month",
+    "href": "pt-data.html#referrals-by-month",
+    "title": "PT Data",
+    "section": "Referrals by Month",
+    "text": "Referrals by Month\n\nmonthly &lt;- summarise(pt_data, .by = Month,\n                     received = sum(ReferralsReceived, na.rm = TRUE),\n                     accepted = sum(ReferralsAccepted, na.rm = TRUE)) |&gt;\n  mutate(date = ymd(Month*100 + 1),\n         pcnt = accepted / received)\n\n\nggplot(monthly, aes(x = date, y = received)) +\n  geom_line()"
   }
 ]

@@ -105,3 +105,26 @@ format:
         (hint: you will need to convert the `Month` column to a date; you can ask ChatGPT)
 - Break
 - [Assessment 2](https://psyteachr.github.io/reprores-v4/assessment-2.html) questions
+
+
+## Class 05 (2024-10-25)
+
+### Pre-Class
+
+- Read [Chapter 5: Data Relations](https://psyteachr.github.io/reprores-v4/05-join.html)
+- Look at the [exercises](https://psyteachr.github.io/reprores-v4/05-join.html#exercises)
+
+### In-Class
+
+- Open the [class book](https://psyteachr.github.io/reprores-v4/)
+- Open RStudio 
+- Start at 13:05
+- Paired programming of [Chapter 5 exercises](https://psyteachr.github.io/reprores-v4/05-join.html#exercises)
+    1. [Grade data](https://psyteachr.github.io/reprores-v4/05-join.html#grade-data): Set up a quarto document, load the datasets, and inspect them (10 min)
+    2. [Matching the variable types](https://psyteachr.github.io/reprores-v4/05-join.html#matching-the-variable-types) and [Complete records](https://psyteachr.github.io/reprores-v4/05-join.html#complete-records) (10 min)
+- Lisa will probably gibber about joins a lot!
+- Break
+- Paired programming:
+    3. [Missing data](https://psyteachr.github.io/reprores-v4/05-join.html#missing-data) (20 min)
+- More joins questions
+- Assessment 3 introduction
