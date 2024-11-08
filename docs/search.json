@@ -67,14 +67,14 @@
     "href": "index.html",
     "title": "ReproRes 2024",
     "section": "",
-    "text": "Make sure you can access Moodle\nBookmark the Teams channel for PSYCH5077 and Introduce yourself\nRead the overview and Chapter 1 of the textbook\nInstall R and RStudio on your computer\n\npost on Teams if you run into problems\nif you don’t have a personal computer, you can use university computers; log on and familiarise yourself with R and RStudio\nIf you have a chromebook or tablet, you can’t install R, but can use the RStudio server (log in with your GUID)\n\nDownload and render the test file to check that your setup is accurate\nAdd these assessment dates to your diary\n\n2024-10-09 (10%) A project with a qmd file showing basic reproducible report skills (chapters 1-2)\n2024-10-23 (20%) A project demonstrating data visualisation and summary skills (chapters 3-4)\n2024-11-13 (30%) A project demonstrating data wrangling skills (chapters 5-7)\n2024-12-11 (40%) A project showing power simulation (chapters 8-10)\n\nFill out the pre-class poll\n\n\n\n\n\nPoll 1\nOpen the class book\nOpen RStudio\nStart at 13:05\nWhy Code? presentation\nDiscuss the class syllabus\nBreak\nChapter 1 live code\n\n\n\n\n\nlog into desktops with campus\\12345678X and GUID password"
+    "text": "Read Chapter 6: Data Tidying\nLook at the exercises\n\n\n\n\n\nReview of Assessment 2\nbreak\nPaired programming of Chapter 6 exercises"
   },
   {
     "objectID": "index.html#class-01-2024-09-27",
     "href": "index.html#class-01-2024-09-27",
     "title": "ReproRes 2024",
-    "section": "",
-    "text": "Make sure you can access Moodle\nBookmark the Teams channel for PSYCH5077 and Introduce yourself\nRead the overview and Chapter 1 of the textbook\nInstall R and RStudio on your computer\n\npost on Teams if you run into problems\nif you don’t have a personal computer, you can use university computers; log on and familiarise yourself with R and RStudio\nIf you have a chromebook or tablet, you can’t install R, but can use the RStudio server (log in with your GUID)\n\nDownload and render the test file to check that your setup is accurate\nAdd these assessment dates to your diary\n\n2024-10-09 (10%) A project with a qmd file showing basic reproducible report skills (chapters 1-2)\n2024-10-23 (20%) A project demonstrating data visualisation and summary skills (chapters 3-4)\n2024-11-13 (30%) A project demonstrating data wrangling skills (chapters 5-7)\n2024-12-11 (40%) A project showing power simulation (chapters 8-10)\n\nFill out the pre-class poll\n\n\n\n\n\nPoll 1\nOpen the class book\nOpen RStudio\nStart at 13:05\nWhy Code? presentation\nDiscuss the class syllabus\nBreak\nChapter 1 live code\n\n\n\n\n\nlog into desktops with campus\\12345678X and GUID password"
+    "section": "Class 01 (2024-09-27)",
+    "text": "Class 01 (2024-09-27)\n\nPre-Class\n\nMake sure you can access Moodle\nBookmark the Teams channel for PSYCH5077 and Introduce yourself\nRead the overview and Chapter 1 of the textbook\nInstall R and RStudio on your computer\n\npost on Teams if you run into problems\nif you don’t have a personal computer, you can use university computers; log on and familiarise yourself with R and RStudio\nIf you have a chromebook or tablet, you can’t install R, but can use the RStudio server (log in with your GUID)\n\nDownload and render the test file to check that your setup is accurate\nAdd these assessment dates to your diary\n\n2024-10-09 (10%) A project with a qmd file showing basic reproducible report skills (chapters 1-2)\n2024-10-23 (20%) A project demonstrating data visualisation and summary skills (chapters 3-4)\n2024-11-13 (30%) A project demonstrating data wrangling skills (chapters 5-7)\n2024-12-11 (40%) A project showing power simulation (chapters 8-10)\n\nFill out the pre-class poll\n\n\n\nIn-Class\n\nPoll 1\nOpen the class book\nOpen RStudio\nStart at 13:05\nWhy Code? presentation\nDiscuss the class syllabus\nBreak\nChapter 1 live code\n\n\n\nClass Notes\n\nlog into desktops with campus\\12345678X and GUID password"
   },
   {
     "objectID": "index.html#class-02-2024-10-04",
@@ -88,21 +88,21 @@
     "href": "index.html#class-03-2024-10-11",
     "title": "ReproRes 2024",
     "section": "Class 03 (2024-10-11)",
-    "text": "Class 03 (2024-10-11)\n\nPre-Class\n\nSubmit assessment 1 by noon on Wednesday\nRead Chapter 3: DataViz\nComplete the exercises for chapter 3\nFill out the pre-class poll\n\n\n\nIn-Class\n\nPoll 3\nOpen the class book\nOpen RStudio\nStart at 13:05\nPaired coding exercise\nBreak\nChapter 3 overview\nAssessment 2 overview"
+    "text": "Class 03 (2024-10-11)\n\nPre-Class\n\nSubmit assessment 1 by noon on Wednesday\nRead Chapter 3: DataViz\nComplete the exercises for chapter 3\nFill out the pre-class poll\n\n\n\nIn-Class\n\nPoll 3\nStart at 13:05\nPaired coding exercise\nBreak\nChapter 3 overview\nAssessment 2 overview"
   },
   {
     "objectID": "index.html#class-04-2024-10-18",
     "href": "index.html#class-04-2024-10-18",
     "title": "ReproRes 2024",
     "section": "Class 04 (2024-10-18)",
-    "text": "Class 04 (2024-10-18)\n\nPre-Class\n\nRead Chapter 4: Summaries\nComplete the exercises\nFill out the pre-class poll\n\n\n\nIn-Class\n\nPoll 4\nOpen the class book\nOpen RStudio\nDownload psychological therapies referral data\nStart at 13:05\nPaired programming\n\nSet up a quarto document, load the dataset, and inspect it (10 min)\nCreate a data table with the total number of referrals received and accepted per month (10 min)\nPlot referrals per month (15 min) (hint: you will need to convert the Month column to a date; you can ask ChatGPT)\n\nBreak\nAssessment 2 questions"
+    "text": "Class 04 (2024-10-18)\n\nPre-Class\n\nRead Chapter 4: Summaries\nComplete the exercises\nFill out the pre-class poll\n\n\n\nIn-Class\n\nPoll 4\nDownload psychological therapies referral data\nStart at 13:05\nPaired programming\n\nSet up a quarto document, load the dataset, and inspect it (10 min)\nCreate a data table with the total number of referrals received and accepted per month (10 min)\nPlot referrals per month (15 min) (hint: you will need to convert the Month column to a date; you can ask ChatGPT)\n\nBreak\nAssessment 2 questions"
   },
   {
     "objectID": "index.html#class-05-2024-10-25",
     "href": "index.html#class-05-2024-10-25",
     "title": "ReproRes 2024",
     "section": "Class 05 (2024-10-25)",
-    "text": "Class 05 (2024-10-25)\n\nPre-Class\n\nRead Chapter 5: Data Relations\nLook at the exercises\n\n\n\nIn-Class\n\nOpen the class book\nOpen RStudio\nStart at 13:05\nPaired programming of Chapter 5 exercises\n\nGrade data: Set up a quarto document, load the datasets, and inspect them (10 min)\nMatching the variable types and Complete records (10 min)\n\nLisa will probably gibber about joins a lot!\nBreak\nPaired programming:\n\nMissing data (20 min)\n\nMore joins questions\nAssessment 3 introduction"
+    "text": "Class 05 (2024-10-25)\n\nPre-Class\n\nRead Chapter 5: Data Relations\nLook at the exercises\n\n\n\nIn-Class\n\nPaired programming of Chapter 5 exercises\n\nGrade data: Set up a quarto document, load the datasets, and inspect them (10 min)\nMatching the variable types and Complete records (10 min)\n\nLisa will probably gibber about joins a lot!\nBreak\nPaired programming:\n\nMissing data (20 min)\n\nMore joins questions\nAssessment 3 introduction"
   },
   {
     "objectID": "pt-data.html",
@@ -124,5 +124,40 @@
     "title": "PT Data",
     "section": "Referrals by Month",
     "text": "Referrals by Month\n\nmonthly &lt;- summarise(pt_data, .by = Month,\n                     received = sum(ReferralsReceived, na.rm = TRUE),\n                     accepted = sum(ReferralsAccepted, na.rm = TRUE)) |&gt;\n  mutate(date = ymd(Month*100 + 1),\n         pcnt = accepted / received)\n\n\nggplot(monthly, aes(x = date, y = received)) +\n  geom_line()"
+  },
+  {
+    "objectID": "ch5.html",
+    "href": "ch5.html",
+    "title": "Ch 5 Exercises",
+    "section": "",
+    "text": "library(tidyverse)"
+  },
+  {
+    "objectID": "ch5.html#load-data",
+    "href": "ch5.html#load-data",
+    "title": "Ch 5 Exercises",
+    "section": "Load Data",
+    "text": "Load Data\n\nschedule &lt;- read_csv(\"data/scheduleA.csv\", show_col_types = FALSE)\ngrades1 &lt;- read_csv(\"data/grade_data1.csv\", show_col_types = FALSE) |&gt;\n  mutate(id = gsub(\"[a-z]\", \"\", id) |&gt; as.numeric())\ngrades2 &lt;- read_csv(\"data/grade_data2.csv\", show_col_types = FALSE)"
+  },
+  {
+    "objectID": "index.html#class-06-2024-11-08",
+    "href": "index.html#class-06-2024-11-08",
+    "title": "ReproRes 2024",
+    "section": "",
+    "text": "Read Chapter 6: Data Tidying\nLook at the exercises\n\n\n\n\n\nReview of Assessment 2\nbreak\nPaired programming of Chapter 6 exercises"
+  },
+  {
+    "objectID": "ch5.html#join-grades",
+    "href": "ch5.html#join-grades",
+    "title": "Ch 5 Exercises",
+    "section": "Join Grades",
+    "text": "Join Grades\n\nexam_all &lt;- inner_join(grades1, schedule, by = \"Points\") |&gt;\n  select(-assessment) |&gt;\n  rename(\"Points_exam\" = Points,\n         \"Grade_exam\" = Grade)\n\n\nessay_all &lt;- inner_join(grades2, schedule, by = \"Points\") |&gt;\n  select(-assessment) |&gt;\n  rename(\"Points_essay\" = Points,\n         \"Grade_essay\" = Grade)"
+  },
+  {
+    "objectID": "ch5.html#joined-essay-and-exam",
+    "href": "ch5.html#joined-essay-and-exam",
+    "title": "Ch 5 Exercises",
+    "section": "Joined essay and exam",
+    "text": "Joined essay and exam\n\n\n\nid\nPoints_exam\nGrade_exam\nPoints_essay\nGrade_essay\n\n\n\n\n…\n…\n…\n…\n…\n\n\n\n\ncompletes &lt;- inner_join(exam_all, essay_all, \n                        by = join_by(id), \n                        suffix = c(\"_exam\", \"_essay\")) |&gt;\n  select(id, exam = Grade_exam, essay = Grade_essay)\n\n\nno_essay &lt;- exam_all |&gt;\n  anti_join(essay_all, by = \"id\")\n\n\nno_exam &lt;- essay_all |&gt;\n  anti_join(exam_all, by = \"id\")\n\nboth_essay_exam &lt;- semi_join(exam_all, essay_all, by = \"id\")\n\n\ntest &lt;- full_join(grades1, grades2, by = \"id\", \n                  suffix = c(\"_exam\", \"_essay\")) |&gt;\n  filter(is.na(Points_exam),\n         !is.na(Points_essay))"
   }
 ]

@@ -1,0 +1,83 @@
+---
+title: "Ch 5 Exercises"
+format:
+  html:
+    embed-resources: true
+    toc: true
+execute: 
+  echo: true
+---
+
+
+```{r}
+#| label: setup
+#| message: false
+library(tidyverse)
+```
+
+
+## Load Data
+
+```{r}
+schedule <- read_csv("data/scheduleA.csv", show_col_types = FALSE)
+grades1 <- read_csv("data/grade_data1.csv", show_col_types = FALSE) |>
+  mutate(id = gsub("[a-z]", "", id) |> as.numeric())
+grades2 <- read_csv("data/grade_data2.csv", show_col_types = FALSE)
+```
+
+
+## Join Grades
+
+```{r}
+exam_all <- inner_join(grades1, schedule, by = "Points") |>
+  select(-assessment) |>
+  rename("Points_exam" = Points,
+         "Grade_exam" = Grade)
+
+
+essay_all <- inner_join(grades2, schedule, by = "Points") |>
+  select(-assessment) |>
+  rename("Points_essay" = Points,
+         "Grade_essay" = Grade)
+```
+
+
+## Joined essay and exam
+
+| id | Points_exam | Grade_exam | Points_essay | Grade_essay |
+|---|---|---|---|---|
+|...|...|...|...|...|
+
+```{r}
+completes <- inner_join(exam_all, essay_all, 
+                        by = join_by(id), 
+                        suffix = c("_exam", "_essay")) |>
+  select(id, exam = Grade_exam, essay = Grade_essay)
+```
+
+
+```{r}
+no_essay <- exam_all |>
+  anti_join(essay_all, by = "id")
+
+
+no_exam <- essay_all |>
+  anti_join(exam_all, by = "id")
+
+both_essay_exam <- semi_join(exam_all, essay_all, by = "id")
+```
+
+
+```{r}
+test <- full_join(grades1, grades2, by = "id", 
+                  suffix = c("_exam", "_essay")) |>
+  filter(is.na(Points_exam),
+         !is.na(Points_essay))
+```
+
+
+
+
+
+
+

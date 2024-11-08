@@ -8,6 +8,100 @@ format:
     toc-title: Page Contents
 ---
 
+## Class 06 (2024-11-08)
+
+### Pre-Class
+
+- Read [Chapter 6: Data Tidying](https://psyteachr.github.io/reprores-v4/06-tidy.html)
+- Look at the [exercises](https://psyteachr.github.io/reprores-v4/06-tidy.html#exercises)
+
+### In-Class
+
+- Review of [Assessment 2](https://psyteachr.github.io/reprores-v4/assessment-2.html)
+- break
+- Paired programming of [Chapter 6 exercises](https://psyteachr.github.io/reprores-v4/06-tidy.html#exercises)
+
+## Class 05 (2024-10-25)
+
+### Pre-Class
+
+- Read [Chapter 5: Data Relations](https://psyteachr.github.io/reprores-v4/05-join.html)
+- Look at the [exercises](https://psyteachr.github.io/reprores-v4/05-join.html#exercises)
+
+### In-Class
+
+- Paired programming of [Chapter 5 exercises](https://psyteachr.github.io/reprores-v4/05-join.html#exercises)
+    1. [Grade data](https://psyteachr.github.io/reprores-v4/05-join.html#grade-data): Set up a quarto document, load the datasets, and inspect them (10 min)
+    2. [Matching the variable types](https://psyteachr.github.io/reprores-v4/05-join.html#matching-the-variable-types) and [Complete records](https://psyteachr.github.io/reprores-v4/05-join.html#complete-records) (10 min)
+- Lisa will probably gibber about joins a lot!
+- Break
+- Paired programming:
+    3. [Missing data](https://psyteachr.github.io/reprores-v4/05-join.html#missing-data) (20 min)
+- More joins questions
+- Assessment 3 introduction
+
+## Class 04 (2024-10-18)
+
+### Pre-Class
+
+- Read [Chapter 4: Summaries](https://psyteachr.github.io/reprores-v4/04-summary.html)
+- Complete the [exercises](https://psyteachr.github.io/reprores-v4/04-summary.html#exercises)
+- Fill out the [pre-class poll](https://forms.gle/ZWiUH44aZZahGvwZ9)
+
+### In-Class
+
+- [Poll 4](polls/poll-04.html)
+- Download [psychological therapies referral data](https://www.opendata.nhs.scot/dataset/psychological-therapies-waiting-times/resource/cfc4b998-c3d6-418f-91e6-a17806de94e0)
+- Start at 13:05
+- Paired programming
+    1. Set up a quarto document, load the dataset, and inspect it (10 min)
+    2. Create a data table with the total number of referrals received and accepted per month (10 min)
+    3. Plot referrals per month (15 min)
+        (hint: you will need to convert the `Month` column to a date; you can ask ChatGPT)
+- Break
+- [Assessment 2](https://psyteachr.github.io/reprores-v4/assessment-2.html) questions
+
+
+## Class 03 (2024-10-11)
+
+### Pre-Class
+
+- Submit [assessment 1](https://psyteachr.github.io/reprores-v4/assessment-1.html) by noon on Wednesday
+- Read [Chapter 3: DataViz](https://psyteachr.github.io/reprores-v4/03-viz.html)
+- Complete the [exercises](https://psyteachr.github.io/reprores-v4/03-viz.html#exercises) for chapter 3
+- Fill out the [pre-class poll](https://forms.gle/g6YoyMgtLQBqgyH89)
+
+### In-Class
+
+- [Poll 3](polls/poll-03.html)
+- Start at 13:05
+- Paired coding exercise
+- Break
+- [Chapter 3](https://psyteachr.github.io/reprores-v4/03-viz.html) overview
+- [Assessment 2](https://psyteachr.github.io/reprores-v4/assessment-2.html) overview
+
+
+## Class 02 (2024-10-04)
+
+### Pre-Class
+
+- [ ] Read [Chapter 2: Reports](https://psyteachr.github.io/reprores-v4/02-reports.html)
+- [ ] Complete the [exercises](https://psyteachr.github.io/reprores-v4/02-reports.html#sec-exercises-reports) for chapter 2
+- [ ] Look at [assessment 1](https://psyteachr.github.io/reprores-v4/assessment-1.html)
+- [ ] Fill out the [pre-class poll](https://forms.gle/6JkELpVZcK3j5W7P6)
+
+### In-Class
+
+- [Poll 2](polls/poll-02.html)
+- Open the [class book](https://psyteachr.github.io/reprores-v4/)
+- Open RStudio 
+- Start at 13:05
+- [Chapter 2](https://psyteachr.github.io/reprores-v4/02-reports.html) live code
+- Break
+- [Assessment 1](https://psyteachr.github.io/reprores-v4/assessment-1.html) questions
+
+
+
 ## Class 01 (2024-09-27)
 
 
@@ -43,88 +137,3 @@ format:
 
 - log into desktops with campus\12345678X and GUID password
 
-## Class 02 (2024-10-04)
-
-### Pre-Class
-
-- [ ] Read [Chapter 2: Reports](https://psyteachr.github.io/reprores-v4/02-reports.html)
-- [ ] Complete the [exercises](https://psyteachr.github.io/reprores-v4/02-reports.html#sec-exercises-reports) for chapter 2
-- [ ] Look at [assessment 1](https://psyteachr.github.io/reprores-v4/assessment-1.html)
-- [ ] Fill out the [pre-class poll](https://forms.gle/6JkELpVZcK3j5W7P6)
-
-### In-Class
-
-- [Poll 2](polls/poll-02.html)
-- Open the [class book](https://psyteachr.github.io/reprores-v4/)
-- Open RStudio 
-- Start at 13:05
-- [Chapter 2](https://psyteachr.github.io/reprores-v4/02-reports.html) live code
-- Break
-- [Assessment 1](https://psyteachr.github.io/reprores-v4/assessment-1.html) questions
-
-## Class 03 (2024-10-11)
-
-### Pre-Class
-
-- Submit [assessment 1](https://psyteachr.github.io/reprores-v4/assessment-1.html) by noon on Wednesday
-- Read [Chapter 3: DataViz](https://psyteachr.github.io/reprores-v4/03-viz.html)
-- Complete the [exercises](https://psyteachr.github.io/reprores-v4/03-viz.html#exercises) for chapter 3
-- Fill out the [pre-class poll](https://forms.gle/g6YoyMgtLQBqgyH89)
-
-### In-Class
-
-- [Poll 3](polls/poll-03.html)
-- Open the [class book](https://psyteachr.github.io/reprores-v4/)
-- Open RStudio 
-- Start at 13:05
-- Paired coding exercise
-- Break
-- [Chapter 3](https://psyteachr.github.io/reprores-v4/03-viz.html) overview
-- [Assessment 2](https://psyteachr.github.io/reprores-v4/assessment-2.html) overview
-
-
-## Class 04 (2024-10-18)
-
-### Pre-Class
-
-- Read [Chapter 4: Summaries](https://psyteachr.github.io/reprores-v4/04-summary.html)
-- Complete the [exercises](https://psyteachr.github.io/reprores-v4/04-summary.html#exercises)
-- Fill out the [pre-class poll](https://forms.gle/ZWiUH44aZZahGvwZ9)
-
-### In-Class
-
-- [Poll 4](polls/poll-04.html)
-- Open the [class book](https://psyteachr.github.io/reprores-v4/)
-- Open RStudio 
-- Download [psychological therapies referral data](https://www.opendata.nhs.scot/dataset/psychological-therapies-waiting-times/resource/cfc4b998-c3d6-418f-91e6-a17806de94e0)
-- Start at 13:05
-- Paired programming
-    1. Set up a quarto document, load the dataset, and inspect it (10 min)
-    2. Create a data table with the total number of referrals received and accepted per month (10 min)
-    3. Plot referrals per month (15 min)
-        (hint: you will need to convert the `Month` column to a date; you can ask ChatGPT)
-- Break
-- [Assessment 2](https://psyteachr.github.io/reprores-v4/assessment-2.html) questions
-
-
-## Class 05 (2024-10-25)
-
-### Pre-Class
-
-- Read [Chapter 5: Data Relations](https://psyteachr.github.io/reprores-v4/05-join.html)
-- Look at the [exercises](https://psyteachr.github.io/reprores-v4/05-join.html#exercises)
-
-### In-Class
-
-- Open the [class book](https://psyteachr.github.io/reprores-v4/)
-- Open RStudio 
-- Start at 13:05
-- Paired programming of [Chapter 5 exercises](https://psyteachr.github.io/reprores-v4/05-join.html#exercises)
-    1. [Grade data](https://psyteachr.github.io/reprores-v4/05-join.html#grade-data): Set up a quarto document, load the datasets, and inspect them (10 min)
-    2. [Matching the variable types](https://psyteachr.github.io/reprores-v4/05-join.html#matching-the-variable-types) and [Complete records](https://psyteachr.github.io/reprores-v4/05-join.html#complete-records) (10 min)
-- Lisa will probably gibber about joins a lot!
-- Break
-- Paired programming:
-    3. [Missing data](https://psyteachr.github.io/reprores-v4/05-join.html#missing-data) (20 min)
-- More joins questions
-- Assessment 3 introduction
